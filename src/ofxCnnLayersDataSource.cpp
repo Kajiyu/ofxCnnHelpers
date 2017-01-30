@@ -9,6 +9,11 @@
 #include "ofxCnnLayersDataSource.hpp"
 
 void ofxCnnLayersDataSource::setup(int _layer_num, vector<vector<int>> &layers, ofxCnnLayersDataSource::CnnDataMode _mode) {
+    if (this->layersState.size() > 0) this->layersState.clear();
+    if (this->densities.size() > 0) this->densities.clear();
+    if (this->filters.size() > 0) this->filters.clear();
+    if (this->outputs.size() > 0) this->outputs.clear();
+    
     this->layer_num = _layer_num;
     if (this->layer_num != layers.size()) {
         ofLogError("Value Error :: The number of layers vector is illegal.");
@@ -130,10 +135,11 @@ void ofxCnnLayersDataSource::update() {
                 }
                 break;
             }
-            case CNN_OUTPUT:
+            case CNN_OUTPUT: {
                 if (densities.size() > 0) densities.clear();
                 if (filters.size() > 0) filters.clear();
                 break;
+            }
             default:
                 break;
         }

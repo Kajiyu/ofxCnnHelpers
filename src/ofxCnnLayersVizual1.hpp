@@ -9,7 +9,7 @@
 #pragma once
 
 
-class ofxCnnLayersVizual {
+class ofxCnnLayersVizual1 {
 public:
     void setup();
 };

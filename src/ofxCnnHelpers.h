@@ -8,5 +8,5 @@
 
 #pragma once
 
-#include "ofxCnnLayersVizual.hpp"
+#include "ofxCnnLayersVizual1.hpp"
 #include "ofxCnnLayersDataSource.hpp"
