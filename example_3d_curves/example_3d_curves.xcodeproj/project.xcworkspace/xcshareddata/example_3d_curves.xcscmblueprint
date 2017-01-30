@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "28AB90D00F308C509BE42EE4A3FD8FF5E5618866",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : 9223372036854775807,
+    "28AB90D00F308C509BE42EE4A3FD8FF5E5618866" : 9223372036854775807,
+    "0B8A4FA6044A03529CCE18C1912A64B865F99ACB" : 9223372036854775807,
+    "5DB7C332A3A89035E93556A2A38BF414005BA671" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5E337AAA-71C8-4BDA-983A-06C069C1D40C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : "ofxZmq\/",
+    "28AB90D00F308C509BE42EE4A3FD8FF5E5618866" : "ofxCnnHelpers\/",
+    "0B8A4FA6044A03529CCE18C1912A64B865F99ACB" : "ofxSingleton\/",
+    "5DB7C332A3A89035E93556A2A38BF414005BA671" : "ofxJSON\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "example_3d_curves",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "example_3d_curves\/example_3d_curves.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:elliotwoods\/ofxSingleton.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0B8A4FA6044A03529CCE18C1912A64B865F99ACB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Kajiyu\/ofxCnnHelpers.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28AB90D00F308C509BE42EE4A3FD8FF5E5618866"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:satoruhiga\/ofxZmq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "447998D83939BB7F25EB9B445BB8EECEBBAD7456"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Kajiyu\/ofxJSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DB7C332A3A89035E93556A2A38BF414005BA671"
+    }
+  ]
+}

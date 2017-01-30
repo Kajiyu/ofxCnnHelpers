@@ -10,3 +10,4 @@
 
 #include "ofxCnnLayersVizual1.hpp"
 #include "ofxCnnLayersDataSource.hpp"
+#include "ofxCnnZmq.hpp"
