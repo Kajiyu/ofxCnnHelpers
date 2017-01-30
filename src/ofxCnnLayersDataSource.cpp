@@ -45,11 +45,28 @@ void ofxCnnLayersDataSource::setup(int _layer_num, vector<vector<int>> &layers, 
                 break;
             }
             case CNN_FILTER: {
-                ofxJSON json;
-                if (json.openLocal("cnnDatas/filter.json")) {
-                } else {
-                    ofLogError("Cannot open filter.json for unexpected reason.");
-                    return;
+                for (int i = 0; i < this->layer_num; i++) {
+                    string filename = "cnnDatas/conv" + ofToString(i+1) + "_filters.json";
+                    ofxJSON json;
+                    if (json.openLocal(filename)) {
+                        vector<vector<vector<float>>> tmp_filters;
+                        for (int j = 0; j < this->layersState[i][2]; j++) {
+                            vector<vector<float>> tmp_filter;
+                            for (int k = 0; k < this->layersState[i][0]; k++) {
+                                vector<float> tmp_row;
+                                for (int l = 0; l < this->layersState[i][1]; l++) {
+                                    float tmp = ofToFloat(json[j][k][l].toStyledString());
+                                    tmp_row.push_back(tmp);
+                                }
+                                tmp_filter.push_back(tmp_row);
+                            }
+                            tmp_filters.push_back(tmp_filter);
+                        }
+                        this->filters.push_back(tmp_filters);
+                    } else {
+                        ofLogError("Cannot open density.json for unexpected reason.");
+                        return;
+                    }
                 }
                 cout << "Mode : Filter" << endl;
                 break;
@@ -95,10 +112,24 @@ void ofxCnnLayersDataSource::update() {
                 }
                 break;
             }
-            case CNN_FILTER:
+            case CNN_FILTER: {
                 if (densities.size() > 0) densities.clear();
                 if (outputs.size() > 0) outputs.clear();
+                ofxJSON json;
+                string filename = "cnnDatas/conv" + ofToString(usingLayerIndex) + "_filters.json";
+                int i = usingLayerIndex - 1;
+                if (json.openLocal(filename)) {
+                    for (int j = 0; j < this->layersState[i][2]; j++) {
+                        for (int k = 0; k < this->layersState[i][0]; k++) {
+                            for (int l = 0; l < this->layersState[i][1]; l++) {
+                                float tmp = ofToFloat(json[j][k][l].toStyledString());
+                                filters[i][j][k][l] = tmp;
+                            }
+                        }
+                    }
+                }
                 break;
+            }
             case CNN_OUTPUT:
                 if (densities.size() > 0) densities.clear();
                 if (filters.size() > 0) filters.clear();
@@ -107,6 +138,7 @@ void ofxCnnLayersDataSource::update() {
                 break;
         }
     } else {
+        ofLogError("This instance has not been setupped. You need to execute 'setup()' before this function.");
     }
 }
 
@@ -115,12 +147,30 @@ void ofxCnnLayersDataSource::changeMode(ofxCnnLayersDataSource::CnnDataMode _mod
     if (this->isSetuped) {
         this->mode = _mode;
     } else {
+        ofLogError("This instance has not been setupped. You need to execute 'setup()' before this function.");
     }
 }
 
-
+void ofxCnnLayersDataSource::changeUsingLayerIndex(int index) {
+    if (this->isSetuped) {
+        this->usingLayerIndex = index;
+    } else {
+        ofLogError("This instance has not been setupped. You need to execute 'setup()' before this function.");
+    }
+}
 
 void ofxCnnLayersDataSource::getDensityDatas(vector<vector<float>> * _densities) {
     _densities->clear();
     *_densities = this->densities;
+}
+
+
+void ofxCnnLayersDataSource::getFilterDatas(vector<vector<vector<vector<float>>>> * _filters){
+    _filters->clear();
+    *_filters = this->filters;
+}
+
+void ofxCnnLayersDataSource::getOutputDatas(vector<vector<vector<vector<float>>>> * _outputs){
+    _outputs->clear();
+    *_outputs = this->outputs;
 }

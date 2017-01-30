@@ -40,17 +40,19 @@ public:
     };
     void setup(int _layer_num, vector<vector<int>> &layers, CnnDataMode _mode);
     void changeMode(CnnDataMode _mode);
+    void changeUsingLayerIndex(int index);
     void update();
     void getDensityDatas(vector<vector<float>> * _densities);
-    void getFilterDatas();
-    void getOutputDatas();
+    void getFilterDatas(vector<vector<vector<vector<float>>>> * _filters);
+    void getOutputDatas(vector<vector<vector<vector<float>>>> * _outputs);
     
 protected:
     bool isSetuped = false;
     CnnDataMode mode;
     int layer_num;
+    int usingLayerIndex = 1;
     vector<vector<int>> layersState;
     vector<vector<float>> densities;
-    vector<vector<vector<float>>> filters;
-    vector<float> outputs;
+    vector<vector<vector<vector<float>>>> filters;
+    vector<vector<vector<vector<float>>>> outputs;
 };
