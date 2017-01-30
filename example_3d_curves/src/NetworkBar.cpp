@@ -20,17 +20,17 @@ void NetworkBar::setup() {
 }
 
 
-void NetworkBar::update(ofxJSON &json, string conv_name) {
+void NetworkBar::update(vector<vector<float>> &paramators, int conv_index) {
     if (!isInitialized) {
         for (int i = 0; i < 64; i++) {
-            float temp = ofToFloat(json[conv_name][i].toStyledString());
+            float temp = paramators[conv_index][i];
             pointValues[i] = temp;
             valueBuffers[i] = temp;
         }
         isInitialized = true;
     }
     for (int i = 0; i < 64; i++) {
-        float temp = ofToFloat(json[conv_name][i].toStyledString());
+        float temp = paramators[conv_index][i];
         if (temp != valueBuffers[i] && animated[i] == false){
             animated[i] = true;
             valueBuffers[i] = temp;

@@ -38,4 +38,6 @@ protected:
     BarLinesGenerator linesGenerator;
     
     ofxCnnLayersDataSource cnnDataSource;
+    
+    vector<vector<float>> cnnParamators;
 };

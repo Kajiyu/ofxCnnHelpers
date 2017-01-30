@@ -14,7 +14,7 @@
 class NetworkBar {
 public:
     void setup();
-    void update(ofxJSON &json, string conv_name);
+    void update(vector<vector<float>> & paramators, int conv_index);
     void draw(float x, float y, float z, ofColor mainColor);
     
     vector<float> pointValues;
