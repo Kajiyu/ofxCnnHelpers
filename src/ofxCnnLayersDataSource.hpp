@@ -21,13 +21,18 @@
  */
 
 
-/*
- *
- * layersState ::
+/**
+ * -  layersState
  * [
  *  [Image's Width, Image's Height, Filter's Number],
  *  ...,
  * ]
+ *
+ * - layer_num : the number of ConvNet Layer.
+ *
+ * - usingLayerIndex : the index for updating. 
+ *                     the layer of the index only is updated in 'update()'.
+ * 
  *
  */
 
