@@ -117,3 +117,10 @@ void ofxCnnLayersDataSource::changeMode(ofxCnnLayersDataSource::CnnDataMode _mod
     } else {
     }
 }
+
+
+
+void ofxCnnLayersDataSource::getDensityDatas(vector<vector<float>> * _densities) {
+    _densities->clear();
+    *_densities = this->densities;
+}

@@ -41,6 +41,9 @@ public:
     void setup(int _layer_num, vector<vector<int>> &layers, CnnDataMode _mode);
     void changeMode(CnnDataMode _mode);
     void update();
+    void getDensityDatas(vector<vector<float>> * _densities);
+    void getFilterDatas();
+    void getOutputDatas();
     
 protected:
     bool isSetuped = false;
