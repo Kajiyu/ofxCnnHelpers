@@ -8,3 +8,4 @@ this addon is composed of some util classes which make easy to deal with datas a
 - ofxJSON
 - ofxTweenzor
 - ofxSingleton
+- ofxZmq
