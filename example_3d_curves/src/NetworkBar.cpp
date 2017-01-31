@@ -31,6 +31,7 @@ void NetworkBar::update(vector<vector<float>> &paramators, int conv_index) {
     }
     for (int i = 0; i < 64; i++) {
         float temp = paramators[conv_index][i];
+        cout << temp << endl;
         if (temp != valueBuffers[i] && animated[i] == false){
             animated[i] = true;
             valueBuffers[i] = temp;
@@ -47,6 +48,7 @@ void NetworkBar::update(vector<vector<float>> &paramators, int conv_index) {
             }
         }
     }
+    cout << "break point" << endl;
 }
 
 

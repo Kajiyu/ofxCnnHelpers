@@ -62,11 +62,12 @@ void ofApp::update(){
     for (int i = 0; i < 5; i++) {
         bars[i].update(cnnParamators, i);
     }
-    cam.setPosition(0, 0, ofGetElapsedTimef()*(-500)+25000);
+    cam.setPosition(0, 0, ofGetElapsedTimef()*(-500)+10000);
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
+    ofSetWindowTitle(ofToString(ofGetFrameRate()));
     cam.begin();
     for (int i = 0; i < 5; i++) {
         bars[i].draw(layerPos[i].x, layerPos[i].y, layerPos[i].z, layerColors[i]);

@@ -21,7 +21,7 @@ void BarLinesGenerator::setup() {
 
 
 void BarLinesGenerator::draw(NetworkBar *bars, vector<ofVec3f> layersPos) {
-    cout << bars[1].pointsPos[10].z << endl;
+//    cout << bars[1].pointsPos[10].z << endl;
     for (int i = 0; i < 4; i++) {
         lines[i].clear();
         for (int j = 0; j < 64; j++) {
