@@ -9,17 +9,13 @@
 /* Begin PBXBuildFile section */
 		00CB9020FC75D02E67CBD597 /* msg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7F1DE5F9AE10421002DB694 /* msg.cpp */; };
 		0243F664A3E1F67A7BF1164E /* xpub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A04AB15C86833B97D13CC32 /* xpub.cpp */; };
-		05959DA89EBACF2C4F9C89C5 /* BaseStore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9033293271D5A9259B36990 /* BaseStore.cpp */; };
 		063FB03E984033AC45DC2F6A /* tipc_connecter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E75C6B8F813D6A6C0F36C62D /* tipc_connecter.cpp */; };
 		08F95FCCFD3633F83C6325F1 /* ofxZmqPair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E19E1B10B45ACD1415F5307 /* ofxZmqPair.cpp */; };
 		0905B99925C5A2600A67A776 /* zmq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3380B49A96CCFF24B4325569 /* zmq.cpp */; };
-		0C110B65C5ACAA4AB576CB43 /* ofxCnnZmq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 043F7C69BDD83153E29AA3EF /* ofxCnnZmq.cpp */; };
 		0E78297274DBEDAA6D8D710F /* reaper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 27133015FC5E4A8B02F2FA97 /* reaper.cpp */; };
 		0E8ABF7A0DDCB9C36F2FFD6B /* select.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E642A8395A937757B13E55D /* select.cpp */; };
-		124BB58EFBC1472D607D739B /* Tweenzor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6968F1DEA668F911A9CB4CA1 /* Tweenzor.cpp */; };
 		140B16B74F4A02771A23B1D8 /* ofxZmqRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDE886AA47A40908938126AC /* ofxZmqRequest.cpp */; };
 		194BB171DD828AB3ED318F46 /* tcp_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BAABFCAE2F070DE9AB735D70 /* tcp_address.cpp */; };
-		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
 		1D6E36F6395871660416FA13 /* v1_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70EE36E354803A4ADCA3B6F2 /* v1_decoder.cpp */; };
 		1FB69A7CB82F6F0C15A57222 /* gssapi_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3124EAE20162455974408621 /* gssapi_server.cpp */; };
 		2160E9417F1EC5FA565AFD33 /* curve_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F13A1234EA01AB679F4E462 /* curve_client.cpp */; };
@@ -28,14 +24,12 @@
 		322C22D3CFD66D1A1B756085 /* tcp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 506D13FD9B7137CC0D79FAFE /* tcp.cpp */; };
 		33DDB4355FBF2CF42FFFCDAC /* pipe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 23BD33C3B5301234155B8957 /* pipe.cpp */; };
 		35900263B9FA069E606EB28B /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B51CD0EF1EEAA168AADDAB4 /* thread.cpp */; };
-		35E302020F4A574EB59BFD2E /* ofxCnnLayersVizual1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE755F0399A187C4C35EC0E3 /* ofxCnnLayersVizual1.cpp */; };
 		38295ECBA8F5AC73042DA634 /* stream_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 335C283982ADD45B8C7017C0 /* stream_engine.cpp */; };
+		4305B9D2D48EE8874F762AF6 /* NetworkBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 968856DC31C10A67B1E9E46D /* NetworkBar.cpp */; };
 		446DAB262063F256C2DAC0EA /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 424139E83C30D6E102D1EF10 /* address.cpp */; };
 		4479E4E1023703A77A4B95F9 /* xsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9696CECD86160C426E6696 /* xsub.cpp */; };
-		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		4943B8E1AEE5AC9E6658E662 /* pgm_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90ED9DCE21D625BDF25974B /* pgm_socket.cpp */; };
-		4B71E4B31E3F4DD600F9B49C /* NetworkBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E4B11E3F4DD600F9B49C /* NetworkBar.cpp */; };
-		4B71E4B61E3F4E2C00F9B49C /* BarLinesGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B71E4B41E3F4E2C00F9B49C /* BarLinesGenerator.cpp */; };
+		4BA638CC1E430B1400CB78AC /* ofxCnnDensitiesDataSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BA638CA1E430B1400CB78AC /* ofxCnnDensitiesDataSource.cpp */; };
 		4DEB21EAC90895EA70620E9D /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896D83394213FBE819BE5000 /* object.cpp */; };
 		4E1F75653F76B3A35F4932EB /* tipc_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723C171BB7CFD7F17DD85D00 /* tipc_listener.cpp */; };
 		517755A30A238FA0DCA7DDB0 /* ofxZmqSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E220F072D19BD53F719AC1 /* ofxZmqSocket.cpp */; };
@@ -46,16 +40,11 @@
 		577F55BFC4D5A4C20023ABA9 /* raw_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 765A859F8E7ABC2DF336E4ED /* raw_encoder.cpp */; };
 		59A8758FBFFFEB4AD2331F82 /* socks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F50F4BBD0F4289A6D5D97E87 /* socks.cpp */; };
 		59FC3829E31833D97E68AFAA /* gssapi_client.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F894DC17BFA2678A5863D54 /* gssapi_client.cpp */; };
-		5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */; };
 		5C63F548F7B521F9B1F0B8DC /* io_object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E297832BB5D023A54E4A85CF /* io_object.cpp */; };
-		5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88333E71C9457E441C33474 /* ofxButton.cpp */; };
 		5E2EBFF3F70996DFFF58BE78 /* precompiled.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 989B3EEC850CD507964990FE /* precompiled.cpp */; };
 		61BAEE333F4C23B14D0BE11E /* null_mechanism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F58D874B66147A2E17D4134E /* null_mechanism.cpp */; };
-		6205DF95C4D4CD36CC5A274C /* Tween.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8D82EADA1C0761788285029E /* Tween.cpp */; };
 		62A5DC97D4DD6E9468FBAD93 /* gssapi_mechanism_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C453D4F6FF29AAE16F105779 /* gssapi_mechanism_base.cpp */; };
-		63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */; };
 		6D8606BCC7694B4C13F19334 /* tipc_address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 307D610C6D6639FB04447BD8 /* tipc_address.cpp */; };
-		7075C2F16B69BEBFF6BC368F /* ofxCnnLayersDataSource.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A610BAF671E4F257A86463D0 /* ofxCnnLayersDataSource.cpp */; };
 		77A72CE277745D5F39D269F4 /* plain_server.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F6404820A02D20A605521D44 /* plain_server.cpp */; };
 		7A8C1DB48BC33E173A3A4D7C /* pgm_receiver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C55B031B4408B196B83ADA85 /* pgm_receiver.cpp */; };
 		7D350B562928A2492D16F986 /* ip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20A155BF21CA3F28676E83E6 /* ip.cpp */; };
@@ -65,18 +54,14 @@
 		7F82829B56C398E23C446F84 /* req.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02FD324AE2BF7A1CFFAB1DC1 /* req.cpp */; };
 		8255DD669761F430E0BF018F /* dealer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 05D452AE76D1FC8D32D1830E /* dealer.cpp */; };
 		825C7DC8A06B2CE89D935EF4 /* v1_encoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F74EC1A6F2EA3099E1A6F3B1 /* v1_encoder.cpp */; };
-		837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15F2C6477A769C03A56D1401 /* ofxSlider.cpp */; };
 		838FFAD21E16CCE47CC486F3 /* tcp_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E61010A43BACB15311E327AA /* tcp_listener.cpp */; };
-		856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9604B925D32EE39065747725 /* ofxBaseGui.cpp */; };
 		90823143B6984801FA5D3B11 /* socket_base.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 465202469D60437CD7121BD5 /* socket_base.cpp */; };
 		9124DE2B436C985326ACEC44 /* v2_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E42E24B5F3733C0DDA35E27A /* v2_decoder.cpp */; };
 		9243955FF08A4B464C8C1302 /* ctx.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CDDC9623836B4A7E476A389 /* ctx.cpp */; };
-		933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */; };
 		937EB4B382ACB79F30161EAF /* ofxZmqReply.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 02768564C6FB918B048E5D07 /* ofxZmqReply.cpp */; };
 		964DD1D4B5D8AD5890AD3547 /* mechanism.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7E8AA23B341B35EE5063F8C4 /* mechanism.cpp */; };
 		9651BFF0CBDABF9802414471 /* lb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59DBCFDDBDF33F90DC9C1DED /* lb.cpp */; };
 		98AB2642B15FFF6216983710 /* devpoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AE6D5E9B92052E9C276228A2 /* devpoll.cpp */; };
-		9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 832BDC407620CDBA568B713D /* tinyxmlerror.cpp */; };
 		A0B675C511E75F3D44D61B09 /* rep.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 365B5A7A10E026C09319E215 /* rep.cpp */; };
 		A21F30CC0B26E1C12EDF4361 /* epoll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7818669B32D83C8DAABF9C8 /* epoll.cpp */; };
 		A37052C99675984AA3E9BB62 /* signaler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CD8864768451103CAE818D64 /* signaler.cpp */; };
@@ -88,9 +73,7 @@
 		AA2FDE680115D444CFFE60A7 /* ofxZmq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 59F3844313C6DD53E365ED2A /* ofxZmq.cpp */; };
 		ABF4CABB614A4A1CC43D99BA /* norm_engine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C1DCD4EDB59AE2D0074BD60C /* norm_engine.cpp */; };
 		AEBEB5D8CC1C67873830772B /* mailbox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C70853F4581C13EFC4FEC569 /* mailbox.cpp */; };
-		B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */; };
 		B4B5235DE31E57BF5FA5D3DD /* trie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8EF982863FDD44BF2859AAE6 /* trie.cpp */; };
-		B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */; };
 		B88366CD58A278C85C0F3001 /* pull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E8E92298FBE1AD44C892FDF6 /* pull.cpp */; };
 		B9A83F5E34CD02C8999965A2 /* proxy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5FF83F7236A1033C87F4926C /* proxy.cpp */; };
 		BC807E95B88CB673C0138EDF /* random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6F711331A3EA21C3F4D5E631 /* random.cpp */; };
@@ -98,6 +81,7 @@
 		BD160F70580DEE1264286103 /* raw_decoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 045C1952A7EE4DA8F96C6C22 /* raw_decoder.cpp */; };
 		BEDFEE7400C58EA4E412B757 /* ofxJSONElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F2B099E6BD1199664C48B177 /* ofxJSONElement.cpp */; };
 		C34BCD241F99815E5528B82E /* push.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55DAE22362DA5E023886F3C5 /* push.cpp */; };
+		C39DB1C7CD8F2B8BC258B9CA /* BarLinesGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3831CD2302E7056D7017EAB4 /* BarLinesGenerator.cpp */; };
 		CB73DDB64EA8CAF894F67E91 /* pair.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F0DC0E8AEF9CA194D4769 /* pair.cpp */; };
 		D23F89D4AF70B35E401B1769 /* ofxZmqSubscriber.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 623AEBA6D2E03367D7A68242 /* ofxZmqSubscriber.cpp */; };
 		D323663AAD4F84AABED9896D /* metadata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9BAB1F7640CB74CFA245DE7 /* metadata.cpp */; };
@@ -111,10 +95,8 @@
 		E4A5E35D9A30D48918575D5A /* mtrie.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 130126968274232CC6C710EC /* mtrie.cpp */; };
 		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
 		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
-		EBB8AE3B0BE439EC1CCD2179 /* Register.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ED68AFA8A71ECE8AA87AC6F4 /* Register.cpp */; };
 		EC0768B96E3F69D950DF704B /* stream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 384B3614AF187CA5643DDBCF /* stream.cpp */; };
 		ED58A048143D3EBAE06EC55F /* options.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDA0E37B5FD8960C9BECC59A /* options.cpp */; };
-		F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */; };
 		FA54978274D182010A6140E3 /* io_thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4067FB4C751E0F1EAF9B6B9E /* io_thread.cpp */; };
 		FB84AAF8D1B7A95266DB5C09 /* jsoncpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 21BDE665988474F1B1F4D302 /* jsoncpp.cpp */; };
 		FE359903C60CC0AC5B8BD3DE /* poll.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 15D04326AD09BAE61F6E99D1 /* poll.cpp */; };
@@ -152,18 +134,16 @@
 
 /* Begin PBXFileReference section */
 		00745CCA6E33589CFA385042 /* ofxZmqPair.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqPair.h; path = ../../../addons/ofxZmq/src/ofxZmqPair.h; sourceTree = SOURCE_ROOT; };
-		01DCC0911400F9ACF5B65578 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
+		014A52C2DF6CCFB63A962EDE /* document.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = document.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/document.h; sourceTree = SOURCE_ROOT; };
 		01E220F072D19BD53F719AC1 /* ofxZmqSocket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqSocket.cpp; path = ../../../addons/ofxZmq/src/ofxZmqSocket.cpp; sourceTree = SOURCE_ROOT; };
 		02768564C6FB918B048E5D07 /* ofxZmqReply.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqReply.cpp; path = ../../../addons/ofxZmq/src/ofxZmqReply.cpp; sourceTree = SOURCE_ROOT; };
-		02828BA30C44C70E6D2CC496 /* ofxSingleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSingleton.h; path = ../../../addons/ofxSingleton/src/ofxSingleton.h; sourceTree = SOURCE_ROOT; };
 		02FD324AE2BF7A1CFFAB1DC1 /* req.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = req.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/req.cpp; sourceTree = SOURCE_ROOT; };
-		043F7C69BDD83153E29AA3EF /* ofxCnnZmq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxCnnZmq.cpp; path = ../../../addons/ofxCnnHelpers/src/ofxCnnZmq.cpp; sourceTree = SOURCE_ROOT; };
+		041C46B02C93707539BE779B /* util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = util.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/details/util.hpp; sourceTree = SOURCE_ROOT; };
 		045C1952A7EE4DA8F96C6C22 /* raw_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = raw_decoder.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/raw_decoder.cpp; sourceTree = SOURCE_ROOT; };
 		05D452AE76D1FC8D32D1830E /* dealer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = dealer.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/dealer.cpp; sourceTree = SOURCE_ROOT; };
 		05F2F4BAC21A25A5805F85E5 /* zmq.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = zmq.hpp; path = ../../../addons/ofxZmq/src/zmq.hpp; sourceTree = SOURCE_ROOT; };
 		05FB85EA394A384E8DFC51D4 /* kqueue.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = kqueue.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/kqueue.cpp; sourceTree = SOURCE_ROOT; };
 		061B5D94CD39239C693EB826 /* own.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = own.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/own.cpp; sourceTree = SOURCE_ROOT; };
-		0A1DAC09F322AE313A40706D /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
 		0A9B1889E7D9A0F40D45CF0C /* err.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = err.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/err.hpp; sourceTree = SOURCE_ROOT; };
 		0AC9799413D7750512E79CF8 /* dbuffer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dbuffer.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/dbuffer.hpp; sourceTree = SOURCE_ROOT; };
 		0C9F0DC0E8AEF9CA194D4769 /* pair.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pair.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/pair.cpp; sourceTree = SOURCE_ROOT; };
@@ -172,21 +152,20 @@
 		0F0C4E81025AF290067F7E83 /* ofxZmqRequest.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqRequest.h; path = ../../../addons/ofxZmq/src/ofxZmqRequest.h; sourceTree = SOURCE_ROOT; };
 		10E70FD83D9FFA2DE6577F1D /* req.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = req.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/req.hpp; sourceTree = SOURCE_ROOT; };
 		11877A8CC8F2C5C8C03973D6 /* reaper.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = reaper.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/reaper.hpp; sourceTree = SOURCE_ROOT; };
-		1276C6C526CA5EC58D86740A /* TweenSelector.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TweenSelector.h; path = ../../../addons/ofxTweenzor/src/TweenSelector.h; sourceTree = SOURCE_ROOT; };
 		130126968274232CC6C710EC /* mtrie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mtrie.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/mtrie.cpp; sourceTree = SOURCE_ROOT; };
 		15D04326AD09BAE61F6E99D1 /* poll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = poll.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/poll.cpp; sourceTree = SOURCE_ROOT; };
-		15F2C6477A769C03A56D1401 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
 		1645F56257269CD0356320BD /* ofxJSON.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxJSON.h; path = ../../../addons/ofxJSON/src/ofxJSON.h; sourceTree = SOURCE_ROOT; };
-		17E65988300FBD9AAA2CD0CA /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		194780A02CD82208D5210F69 /* binary.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = binary.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/archives/binary.hpp; sourceTree = SOURCE_ROOT; };
 		19B0B130C9746FDA9AEDED42 /* norm_engine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = norm_engine.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/norm_engine.hpp; sourceTree = SOURCE_ROOT; };
 		19FD79083078598282B13210 /* ofxZmqPublisher.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqPublisher.cpp; path = ../../../addons/ofxZmq/src/ofxZmqPublisher.cpp; sourceTree = SOURCE_ROOT; };
 		1A5E61164BCFD4074C50D0C8 /* i_decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = i_decoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/i_decoder.hpp; sourceTree = SOURCE_ROOT; };
-		1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
+		1A7FF408A8C820410061012D /* base64.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = base64.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/base64.hpp; sourceTree = SOURCE_ROOT; };
+		1CBA755F760D2B3F15238E7B /* helpers.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = helpers.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/details/helpers.hpp; sourceTree = SOURCE_ROOT; };
 		1DF961D3315047E5E0CDF7BF /* const_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = const_common.h; path = src/const_common.h; sourceTree = SOURCE_ROOT; };
 		1E76255E4DFC092A7D9B8CDE /* metadata.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = metadata.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/metadata.hpp; sourceTree = SOURCE_ROOT; };
-		1F0CC314C9ABC8362DF4B3F2 /* Singleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Singleton.h; path = ../../../addons/ofxSingleton/src/ofxSingleton/Singleton.h; sourceTree = SOURCE_ROOT; };
 		1F62855005A6AF9719B6C782 /* platform.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = platform.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/platform.hpp; sourceTree = SOURCE_ROOT; };
 		20A155BF21CA3F28676E83E6 /* ip.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ip.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ip.cpp; sourceTree = SOURCE_ROOT; };
+		21B456E39A99A92EB12D0D89 /* map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = map.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/map.hpp; sourceTree = SOURCE_ROOT; };
 		21BDE665988474F1B1F4D302 /* jsoncpp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = jsoncpp.cpp; path = ../../../addons/ofxJSON/libs/jsoncpp/src/jsoncpp.cpp; sourceTree = SOURCE_ROOT; };
 		221C7D03B1C1D5139EE61A79 /* tipc_address.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tipc_address.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tipc_address.hpp; sourceTree = SOURCE_ROOT; };
 		2284BED5105AF7482B6CC5F7 /* gssapi_mechanism_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gssapi_mechanism_base.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/gssapi_mechanism_base.hpp; sourceTree = SOURCE_ROOT; };
@@ -194,27 +173,28 @@
 		238A0A7294C0E9A0F33E1F08 /* sub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = sub.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/sub.hpp; sourceTree = SOURCE_ROOT; };
 		23BD33C3B5301234155B8957 /* pipe.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pipe.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/pipe.cpp; sourceTree = SOURCE_ROOT; };
 		24C4C7326A052DADF21CFC0C /* ctx.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ctx.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ctx.hpp; sourceTree = SOURCE_ROOT; };
-		2600FB058F34C2FD5037FCCF /* TweenEvent.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TweenEvent.h; path = ../../../addons/ofxTweenzor/src/TweenEvent.h; sourceTree = SOURCE_ROOT; };
 		26A541233BC6F736E758F718 /* ofxJSONElement.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxJSONElement.h; path = ../../../addons/ofxJSON/src/ofxJSONElement.h; sourceTree = SOURCE_ROOT; };
+		26AA835171A80A7CB9CB15A7 /* memory.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = memory.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/memory.hpp; sourceTree = SOURCE_ROOT; };
 		27133015FC5E4A8B02F2FA97 /* reaper.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = reaper.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/reaper.cpp; sourceTree = SOURCE_ROOT; };
 		278E169641EB0FB90E8B94F8 /* raw_decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = raw_decoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/raw_decoder.hpp; sourceTree = SOURCE_ROOT; };
-		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		283A01EAA9AF54D324A08F4A /* fq.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fq.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/fq.hpp; sourceTree = SOURCE_ROOT; };
-		2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
 		2C7CF000B7B4F782C187C353 /* json.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json.h; path = ../../../addons/ofxJSON/libs/jsoncpp/include/json/json.h; sourceTree = SOURCE_ROOT; };
 		2D260802BCBCF03761193553 /* ypipe_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ypipe_base.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ypipe_base.hpp; sourceTree = SOURCE_ROOT; };
+		2E7E8C228F0EE81CD5172FA5 /* cereal.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cereal.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/cereal.hpp; sourceTree = SOURCE_ROOT; };
 		2F13A1234EA01AB679F4E462 /* curve_client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = curve_client.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/curve_client.cpp; sourceTree = SOURCE_ROOT; };
+		301A189BBF7926DD03AF6A14 /* portable_binary.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = portable_binary.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/archives/portable_binary.hpp; sourceTree = SOURCE_ROOT; };
 		307D610C6D6639FB04447BD8 /* tipc_address.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tipc_address.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tipc_address.cpp; sourceTree = SOURCE_ROOT; };
 		3124EAE20162455974408621 /* gssapi_server.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = gssapi_server.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/gssapi_server.cpp; sourceTree = SOURCE_ROOT; };
 		335C283982ADD45B8C7017C0 /* stream_engine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = stream_engine.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/stream_engine.cpp; sourceTree = SOURCE_ROOT; };
 		3380B49A96CCFF24B4325569 /* zmq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = zmq.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/zmq.cpp; sourceTree = SOURCE_ROOT; };
 		365B5A7A10E026C09319E215 /* rep.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = rep.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/rep.cpp; sourceTree = SOURCE_ROOT; };
+		3831CD2302E7056D7017EAB4 /* BarLinesGenerator.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BarLinesGenerator.cpp; path = src/BarLinesGenerator.cpp; sourceTree = SOURCE_ROOT; };
 		384B3614AF187CA5643DDBCF /* stream.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = stream.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/stream.cpp; sourceTree = SOURCE_ROOT; };
-		39777742146004DB5DD0DA36 /* BaseStore.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BaseStore.h; path = ../../../addons/ofxSingleton/src/ofxSingleton/BaseStore.h; sourceTree = SOURCE_ROOT; };
+		39E516CA38ED77FF1ADC3678 /* string.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = string.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/string.hpp; sourceTree = SOURCE_ROOT; };
 		3AB0E099689BAF73600A8C32 /* session_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = session_base.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/session_base.hpp; sourceTree = SOURCE_ROOT; };
 		3ACD83DD71F9013953F98E88 /* ipc_listener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ipc_listener.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ipc_listener.cpp; sourceTree = SOURCE_ROOT; };
 		3BAE56E60FB55DD26ED8BD55 /* atomic_ptr.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = atomic_ptr.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/atomic_ptr.hpp; sourceTree = SOURCE_ROOT; };
-		3D87DCEF7BE61FF2B7A482ED /* UnmanagedSingleton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = UnmanagedSingleton.h; path = ../../../addons/ofxSingleton/src/ofxSingleton/UnmanagedSingleton.h; sourceTree = SOURCE_ROOT; };
+		3D65C7859FB21BA04D29190B /* stringbuffer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stringbuffer.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/stringbuffer.h; sourceTree = SOURCE_ROOT; };
 		3E19E1B10B45ACD1415F5307 /* ofxZmqPair.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqPair.cpp; path = ../../../addons/ofxZmq/src/ofxZmqPair.cpp; sourceTree = SOURCE_ROOT; };
 		3F981E03052C7333EA0898F4 /* tipc_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tipc_connecter.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tipc_connecter.hpp; sourceTree = SOURCE_ROOT; };
 		4067FB4C751E0F1EAF9B6B9E /* io_thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = io_thread.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/io_thread.cpp; sourceTree = SOURCE_ROOT; };
@@ -224,6 +204,8 @@
 		434F52F98B9F16D53A3C4A19 /* ipc_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ipc_connecter.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ipc_connecter.hpp; sourceTree = SOURCE_ROOT; };
 		438D86A109D49AC2B3D3DBC5 /* raw_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = raw_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/raw_encoder.hpp; sourceTree = SOURCE_ROOT; };
 		44CB27D9C82415BA955D79CF /* v2_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v2_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v2_encoder.hpp; sourceTree = SOURCE_ROOT; };
+		44FEF46B8502CDAF72574B86 /* filestream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = filestream.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/filestream.h; sourceTree = SOURCE_ROOT; };
+		456A587D9C3E04BAC1B64428 /* tuple.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tuple.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/tuple.hpp; sourceTree = SOURCE_ROOT; };
 		46095B5457A7675D8C84D258 /* sub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = sub.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/sub.cpp; sourceTree = SOURCE_ROOT; };
 		465202469D60437CD7121BD5 /* socket_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = socket_base.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/socket_base.cpp; sourceTree = SOURCE_ROOT; };
 		4667A435BDCB1AFEEE841C2E /* own.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = own.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/own.hpp; sourceTree = SOURCE_ROOT; };
@@ -231,39 +213,42 @@
 		470786241719B8DD09621D1D /* v2_protocol.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v2_protocol.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v2_protocol.hpp; sourceTree = SOURCE_ROOT; };
 		48454745FA80EA36AFBB571E /* command.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = command.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/command.hpp; sourceTree = SOURCE_ROOT; };
 		4B51CD0EF1EEAA168AADDAB4 /* thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = thread.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/thread.cpp; sourceTree = SOURCE_ROOT; };
-		4B71E4B11E3F4DD600F9B49C /* NetworkBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NetworkBar.cpp; sourceTree = "<group>"; };
-		4B71E4B21E3F4DD600F9B49C /* NetworkBar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = NetworkBar.hpp; sourceTree = "<group>"; };
-		4B71E4B41E3F4E2C00F9B49C /* BarLinesGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BarLinesGenerator.cpp; sourceTree = "<group>"; };
-		4B71E4B51E3F4E2C00F9B49C /* BarLinesGenerator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BarLinesGenerator.hpp; sourceTree = "<group>"; };
 		4B817DF7165BE79BBB51D543 /* v1_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v1_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_encoder.hpp; sourceTree = SOURCE_ROOT; };
+		4BA638CA1E430B1400CB78AC /* ofxCnnDensitiesDataSource.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ofxCnnDensitiesDataSource.cpp; path = ../src/ofxCnnDensitiesDataSource.cpp; sourceTree = "<group>"; };
+		4BA638CB1E430B1400CB78AC /* ofxCnnDensitiesDataSource.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ofxCnnDensitiesDataSource.hpp; path = ../src/ofxCnnDensitiesDataSource.hpp; sourceTree = "<group>"; };
 		4BD4CD073E26D816B3A77124 /* pull.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pull.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pull.hpp; sourceTree = SOURCE_ROOT; };
+		4C2B9BD56DE01B5B55E1DC78 /* rapidxml_print.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidxml_print.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml/rapidxml_print.hpp; sourceTree = SOURCE_ROOT; };
 		4CDDC9623836B4A7E476A389 /* ctx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ctx.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ctx.cpp; sourceTree = SOURCE_ROOT; };
+		4DA47068464AD441A21B889C /* utility.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = utility.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/utility.hpp; sourceTree = SOURCE_ROOT; };
 		4E55828F5D769626FBE4339A /* lb.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = lb.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/lb.hpp; sourceTree = SOURCE_ROOT; };
+		4E7F2179CE0FE64EB7DCC2A3 /* unordered_set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_set.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/unordered_set.hpp; sourceTree = SOURCE_ROOT; };
 		4F74431077ECCDC2681FE0F9 /* tipc_listener.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tipc_listener.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tipc_listener.hpp; sourceTree = SOURCE_ROOT; };
 		4F894DC17BFA2678A5863D54 /* gssapi_client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = gssapi_client.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/gssapi_client.cpp; sourceTree = SOURCE_ROOT; };
 		4FE2AC548E03DF0837EB7347 /* pub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pub.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pub.hpp; sourceTree = SOURCE_ROOT; };
 		506D13FD9B7137CC0D79FAFE /* tcp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tcp.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp.cpp; sourceTree = SOURCE_ROOT; };
 		506D882866F7F4B3A1B57690 /* kqueue.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = kqueue.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/kqueue.hpp; sourceTree = SOURCE_ROOT; };
-		50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxXmlSettings.cpp; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.cpp; sourceTree = SOURCE_ROOT; };
-		52AFA1F08C420992CAAAE648 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
 		55DAE22362DA5E023886F3C5 /* push.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = push.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/push.cpp; sourceTree = SOURCE_ROOT; };
+		5642B519BBBF83E476330319 /* stack.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stack.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal/stack.h; sourceTree = SOURCE_ROOT; };
 		56521FF26C4D3B5335F08B30 /* zmq.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = zmq.h; path = ../../../addons/ofxZmq/libs/zmq/include/zmq.h; sourceTree = SOURCE_ROOT; };
+		589A8A7317F6B834437112B0 /* array.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = array.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/array.hpp; sourceTree = SOURCE_ROOT; };
 		59DBCFDDBDF33F90DC9C1DED /* lb.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = lb.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/lb.cpp; sourceTree = SOURCE_ROOT; };
 		59F3844313C6DD53E365ED2A /* ofxZmq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmq.cpp; path = ../../../addons/ofxZmq/src/ofxZmq.cpp; sourceTree = SOURCE_ROOT; };
 		5CB8DB60BEBD6BB1BB1462FA /* ofxZmqSocket.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqSocket.h; path = ../../../addons/ofxZmq/src/ofxZmqSocket.h; sourceTree = SOURCE_ROOT; };
 		5D644DC6E5CB1379213C1A35 /* tcp_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tcp_connecter.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp_connecter.cpp; sourceTree = SOURCE_ROOT; };
+		5D9125D36FEF985ABE90F9B0 /* rapidxml_utils.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidxml_utils.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml/rapidxml_utils.hpp; sourceTree = SOURCE_ROOT; };
 		5DC318E29E40C352C77B0D5F /* v1_decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v1_decoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_decoder.hpp; sourceTree = SOURCE_ROOT; };
 		5FDCC8CD3D8A2EED10F7DDCE /* windows.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = windows.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/windows.hpp; sourceTree = SOURCE_ROOT; };
 		5FF83F7236A1033C87F4926C /* proxy.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = proxy.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/proxy.cpp; sourceTree = SOURCE_ROOT; };
 		61313493CDB52744E22A604D /* json-forwards.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = "json-forwards.h"; path = "../../../addons/ofxJSON/libs/jsoncpp/include/json/json-forwards.h"; sourceTree = SOURCE_ROOT; };
 		623AEBA6D2E03367D7A68242 /* ofxZmqSubscriber.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqSubscriber.cpp; path = ../../../addons/ofxZmq/src/ofxZmqSubscriber.cpp; sourceTree = SOURCE_ROOT; };
 		632573733790BBDA43B9A8F6 /* stream.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stream.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/stream.hpp; sourceTree = SOURCE_ROOT; };
+		634886BB177728A6AA23D2A5 /* BarLinesGenerator.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = BarLinesGenerator.hpp; path = src/BarLinesGenerator.hpp; sourceTree = SOURCE_ROOT; };
 		6442A0BEBEB6FDF7539668B5 /* tcp.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tcp.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp.hpp; sourceTree = SOURCE_ROOT; };
 		64AB925F48ED2DAB3C515AD6 /* socks.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = socks.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/socks.hpp; sourceTree = SOURCE_ROOT; };
 		65EF805621B642AAC2EE948A /* select.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = select.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/select.hpp; sourceTree = SOURCE_ROOT; };
+		6733A78AB0BDE670C93C14BD /* bitset.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = bitset.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/bitset.hpp; sourceTree = SOURCE_ROOT; };
 		67459F910B6B4115724D6E7D /* ipc_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ipc_connecter.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ipc_connecter.cpp; sourceTree = SOURCE_ROOT; };
 		677E098B048890E8E1A236E6 /* config.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = config.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/config.hpp; sourceTree = SOURCE_ROOT; };
-		6968F1DEA668F911A9CB4CA1 /* Tweenzor.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Tweenzor.cpp; path = ../../../addons/ofxTweenzor/src/Tweenzor.cpp; sourceTree = SOURCE_ROOT; };
 		698B06B6FEDFAC95C31C3FFE /* mtrie.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mtrie.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/mtrie.hpp; sourceTree = SOURCE_ROOT; };
 		69D2F1D3EEA45E5213A13C2D /* pipe.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pipe.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pipe.hpp; sourceTree = SOURCE_ROOT; };
 		6ADB08C013851B68236C097B /* tcp_listener.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tcp_listener.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp_listener.hpp; sourceTree = SOURCE_ROOT; };
@@ -276,40 +261,41 @@
 		70947FAACD35F302C474A60C /* stdint.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stdint.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/stdint.hpp; sourceTree = SOURCE_ROOT; };
 		70EE36E354803A4ADCA3B6F2 /* v1_decoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v1_decoder.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_decoder.cpp; sourceTree = SOURCE_ROOT; };
 		723C171BB7CFD7F17DD85D00 /* tipc_listener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tipc_listener.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tipc_listener.cpp; sourceTree = SOURCE_ROOT; };
+		730F3DEEDFB2745BC80C044B /* adapters.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = adapters.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/archives/adapters.hpp; sourceTree = SOURCE_ROOT; };
 		75B8D9305DCDC9364E7FED86 /* proxy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = proxy.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/proxy.hpp; sourceTree = SOURCE_ROOT; };
 		75DE72E4733AD46D12E6C380 /* i_engine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = i_engine.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/i_engine.hpp; sourceTree = SOURCE_ROOT; };
 		765A859F8E7ABC2DF336E4ED /* raw_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = raw_encoder.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/raw_encoder.cpp; sourceTree = SOURCE_ROOT; };
 		774519AC744DF3513D791302 /* session_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = session_base.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/session_base.cpp; sourceTree = SOURCE_ROOT; };
 		779E05EEFF3CC7A56671DF89 /* pgm_sender.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pgm_sender.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pgm_sender.hpp; sourceTree = SOURCE_ROOT; };
-		78D67A00EB899FAC09430597 /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
 		7A04AB15C86833B97D13CC32 /* xpub.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = xpub.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/xpub.cpp; sourceTree = SOURCE_ROOT; };
+		7DB99B526D6D3A5800A63417 /* xml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = xml.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/archives/xml.hpp; sourceTree = SOURCE_ROOT; };
 		7E642A8395A937757B13E55D /* select.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = select.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/select.cpp; sourceTree = SOURCE_ROOT; };
+		7E780C4AAECB8F2527213F85 /* reader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = reader.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/reader.h; sourceTree = SOURCE_ROOT; };
 		7E8AA23B341B35EE5063F8C4 /* mechanism.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mechanism.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/mechanism.cpp; sourceTree = SOURCE_ROOT; };
 		7EBD5AA38B259EC6150C7BFE /* io_thread.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = io_thread.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/io_thread.hpp; sourceTree = SOURCE_ROOT; };
-		802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
 		815EFD26C0EA52B341CBE807 /* xsub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = xsub.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/xsub.hpp; sourceTree = SOURCE_ROOT; };
-		832BDC407620CDBA568B713D /* tinyxmlerror.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlerror.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
+		81E41F60374363FFCFA67159 /* static_object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = static_object.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/details/static_object.hpp; sourceTree = SOURCE_ROOT; };
+		8257DDB630FEA8C1EB2A96CF /* json.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = json.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/archives/json.hpp; sourceTree = SOURCE_ROOT; };
+		83065386E9CE7EFBA7F6290D /* macros.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = macros.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/macros.hpp; sourceTree = SOURCE_ROOT; };
 		8516C5B43445BA23870F610E /* gssapi_client.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gssapi_client.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/gssapi_client.hpp; sourceTree = SOURCE_ROOT; };
 		860DF59C629F72173099F90F /* zmq_utils.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = zmq_utils.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/zmq_utils.cpp; sourceTree = SOURCE_ROOT; };
 		862A23776ADC7BDA61AAC254 /* likely.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = likely.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/likely.hpp; sourceTree = SOURCE_ROOT; };
-		87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
+		87365B5F07B1DE0CF0C7ED37 /* stack.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stack.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/stack.hpp; sourceTree = SOURCE_ROOT; };
 		889063A2B3A585EB910D1C5C /* dist.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = dist.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/dist.cpp; sourceTree = SOURCE_ROOT; };
 		88AFB24E07F4085A92892DAC /* socks_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = socks_connecter.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/socks_connecter.hpp; sourceTree = SOURCE_ROOT; };
-		89449E3044D456F7DE7BEA14 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
 		896273A057DB15A6E3214A02 /* rep.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rep.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/rep.hpp; sourceTree = SOURCE_ROOT; };
 		896D83394213FBE819BE5000 /* object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = object.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/object.cpp; sourceTree = SOURCE_ROOT; };
 		8A8DEC6F2543D39A80E8DD76 /* plain_client.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = plain_client.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/plain_client.cpp; sourceTree = SOURCE_ROOT; };
 		8B2E3106E961F47E13328FC4 /* devpoll.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = devpoll.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/devpoll.hpp; sourceTree = SOURCE_ROOT; };
 		8B8B43975DFD861385B3F7F7 /* ip.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ip.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ip.hpp; sourceTree = SOURCE_ROOT; };
-		8D82EADA1C0761788285029E /* Tween.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Tween.cpp; path = ../../../addons/ofxTweenzor/src/Tween.cpp; sourceTree = SOURCE_ROOT; };
-		8DC6073323493B29283F4BD3 /* ofxCnnLayersVizual1.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCnnLayersVizual1.hpp; path = ../../../addons/ofxCnnHelpers/src/ofxCnnLayersVizual1.hpp; sourceTree = SOURCE_ROOT; };
 		8E7DEAC7187C183130CE3AA1 /* pgm_socket.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pgm_socket.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pgm_socket.hpp; sourceTree = SOURCE_ROOT; };
 		8EF982863FDD44BF2859AAE6 /* trie.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = trie.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/trie.cpp; sourceTree = SOURCE_ROOT; };
-		907C5B5E104864A2D3A25745 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		8F889AEAF9BC4F975BA94945 /* rapidjson.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidjson.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/rapidjson.h; sourceTree = SOURCE_ROOT; };
+		94D4D7A41FC0BA393F76915A /* valarray.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = valarray.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/valarray.hpp; sourceTree = SOURCE_ROOT; };
+		9536C2BF47D307DF3D41F7AA /* queue.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = queue.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/queue.hpp; sourceTree = SOURCE_ROOT; };
 		95FCCE122AC6EF29C382F1AB /* tcp_connecter.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tcp_connecter.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp_connecter.hpp; sourceTree = SOURCE_ROOT; };
-		9604B925D32EE39065747725 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		968856DC31C10A67B1E9E46D /* NetworkBar.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = NetworkBar.cpp; path = src/NetworkBar.cpp; sourceTree = SOURCE_ROOT; };
 		989B3EEC850CD507964990FE /* precompiled.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = precompiled.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/precompiled.cpp; sourceTree = SOURCE_ROOT; };
-		9961DDB51AB84B98B39A7412 /* ofxCnnLayersDataSource.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCnnLayersDataSource.hpp; path = ../../../addons/ofxCnnHelpers/src/ofxCnnLayersDataSource.hpp; sourceTree = SOURCE_ROOT; };
 		9B2BD7D174E049B0ECA7AF33 /* clock.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = clock.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/clock.hpp; sourceTree = SOURCE_ROOT; };
 		9C55DA12043678D641B94B98 /* plain_server.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = plain_server.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/plain_server.hpp; sourceTree = SOURCE_ROOT; };
 		9D0FFF3D6D73089014185DF7 /* address.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = address.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/address.hpp; sourceTree = SOURCE_ROOT; };
@@ -318,45 +304,49 @@
 		A0AF7AC92481A879E7D545D2 /* plain_client.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = plain_client.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/plain_client.hpp; sourceTree = SOURCE_ROOT; };
 		A0E561410608BF1D8AFDC8FD /* err.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = err.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/err.cpp; sourceTree = SOURCE_ROOT; };
 		A11E0F907F43CA44E040099B /* tcp_address.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tcp_address.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp_address.hpp; sourceTree = SOURCE_ROOT; };
+		A3DBEB315B3FD557E49AFCBB /* forward_list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = forward_list.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/forward_list.hpp; sourceTree = SOURCE_ROOT; };
 		A55A5BEAF25A03FE20F77864 /* encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/encoder.hpp; sourceTree = SOURCE_ROOT; };
-		A610BAF671E4F257A86463D0 /* ofxCnnLayersDataSource.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxCnnLayersDataSource.cpp; path = ../../../addons/ofxCnnHelpers/src/ofxCnnLayersDataSource.cpp; sourceTree = SOURCE_ROOT; };
 		A743884B867CA29B762A2413 /* ofxCnnHelpers.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCnnHelpers.h; path = ../../../addons/ofxCnnHelpers/src/ofxCnnHelpers.h; sourceTree = SOURCE_ROOT; };
 		A7818669B32D83C8DAABF9C8 /* epoll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = epoll.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/epoll.cpp; sourceTree = SOURCE_ROOT; };
+		A7DE09C6EECF8BBDE5A5DFDD /* rapidxml.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidxml.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml/rapidxml.hpp; sourceTree = SOURCE_ROOT; };
 		AA1C650FEAD969F02720DDEB /* curve_server.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = curve_server.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/curve_server.hpp; sourceTree = SOURCE_ROOT; };
 		AB73B548326AB2136D2256C9 /* poller.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = poller.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/poller.hpp; sourceTree = SOURCE_ROOT; };
 		AC61087481CB37C7D461975E /* trie.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = trie.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/trie.hpp; sourceTree = SOURCE_ROOT; };
 		ACFF7920DBB66DFD21F0FF92 /* null_mechanism.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = null_mechanism.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/null_mechanism.hpp; sourceTree = SOURCE_ROOT; };
 		ADA54C230285E76A0F5F3C44 /* ypipe_conflate.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ypipe_conflate.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ypipe_conflate.hpp; sourceTree = SOURCE_ROOT; };
+		ADC4AA362A2CB0AC017D7A74 /* complex.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = complex.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/complex.hpp; sourceTree = SOURCE_ROOT; };
 		AE6D5E9B92052E9C276228A2 /* devpoll.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = devpoll.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/devpoll.cpp; sourceTree = SOURCE_ROOT; };
 		AEF8E2D12BA5CFEC3092F12C /* dealer.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dealer.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/dealer.hpp; sourceTree = SOURCE_ROOT; };
 		AFED29CCDFDB4D4DCA1C303F /* zmq_utils.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = zmq_utils.h; path = ../../../addons/ofxZmq/libs/zmq/include/zmq_utils.h; sourceTree = SOURCE_ROOT; };
 		AFFC5CF0D0F97900912110C0 /* mechanism.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mechanism.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/mechanism.hpp; sourceTree = SOURCE_ROOT; };
 		B089F974590C197DC5AA930D /* dist.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = dist.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/dist.hpp; sourceTree = SOURCE_ROOT; };
-		B21E7E5F548EEA92F368040B /* tinyxml.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = tinyxml.h; path = ../../../addons/ofxXmlSettings/libs/tinyxml.h; sourceTree = SOURCE_ROOT; };
+		B35DAD8AEF085467A80C942F /* polymorphic_impl.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = polymorphic_impl.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/details/polymorphic_impl.hpp; sourceTree = SOURCE_ROOT; };
 		B3E2841F6DCB9A9EA2D67864 /* i_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = i_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/i_encoder.hpp; sourceTree = SOURCE_ROOT; };
+		B6496CAC8AEBBEBABBBDEBF7 /* set.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = set.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/set.hpp; sourceTree = SOURCE_ROOT; };
 		B66235C37DEC5FDCE96F3B15 /* fd.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = fd.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/fd.hpp; sourceTree = SOURCE_ROOT; };
-		B877ED09B35F60F33C634DAE /* Tween.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Tween.h; path = ../../../addons/ofxTweenzor/src/Tween.h; sourceTree = SOURCE_ROOT; };
-		B87C60311EC1FE841C1ECD89 /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
+		B6AFA0131983ED4387C63D31 /* genericstream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = genericstream.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/genericstream.h; sourceTree = SOURCE_ROOT; };
+		B6ECB5F7D35A5522044F58F5 /* list.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = list.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/list.hpp; sourceTree = SOURCE_ROOT; };
 		B87F75AC0682FA834A16F642 /* router.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = router.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/router.hpp; sourceTree = SOURCE_ROOT; };
 		B88E56CD352A3EF6BC756802 /* curve_client.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = curve_client.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/curve_client.hpp; sourceTree = SOURCE_ROOT; };
 		B90ED9DCE21D625BDF25974B /* pgm_socket.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pgm_socket.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/pgm_socket.cpp; sourceTree = SOURCE_ROOT; };
+		BA6EDC1B9C4E140A82B78DE7 /* unordered_map.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = unordered_map.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/unordered_map.hpp; sourceTree = SOURCE_ROOT; };
 		BAABFCAE2F070DE9AB735D70 /* tcp_address.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tcp_address.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp_address.cpp; sourceTree = SOURCE_ROOT; };
 		BACC6484EB4D30B165995939 /* decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = decoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/decoder.hpp; sourceTree = SOURCE_ROOT; };
+		BB26F53F155112965B30A627 /* chrono.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = chrono.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/chrono.hpp; sourceTree = SOURCE_ROOT; };
 		BB401040053748B34477E0DF /* ipc_listener.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ipc_listener.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ipc_listener.hpp; sourceTree = SOURCE_ROOT; };
-		BBACB3C28590DF8ECC2F8CF4 /* Register.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Register.h; path = ../../../addons/ofxSingleton/src/ofxSingleton/Register.h; sourceTree = SOURCE_ROOT; };
 		BC31C79C5037B095B00C9FA5 /* router.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = router.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/router.cpp; sourceTree = SOURCE_ROOT; };
-		BE755F0399A187C4C35EC0E3 /* ofxCnnLayersVizual1.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxCnnLayersVizual1.cpp; path = ../../../addons/ofxCnnHelpers/src/ofxCnnLayersVizual1.cpp; sourceTree = SOURCE_ROOT; };
+		C0CB7F36F5AF721C7E47AB05 /* prettywriter.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = prettywriter.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/prettywriter.h; sourceTree = SOURCE_ROOT; };
 		C16FADF6329EFC4E08EA764A /* poll.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = poll.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/poll.hpp; sourceTree = SOURCE_ROOT; };
 		C1DCD4EDB59AE2D0074BD60C /* norm_engine.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = norm_engine.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/norm_engine.cpp; sourceTree = SOURCE_ROOT; };
+		C2EAFC18C5968DFE8F8D6EA7 /* deque.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = deque.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/deque.hpp; sourceTree = SOURCE_ROOT; };
 		C453D4F6FF29AAE16F105779 /* gssapi_mechanism_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = gssapi_mechanism_base.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/gssapi_mechanism_base.cpp; sourceTree = SOURCE_ROOT; };
 		C55B031B4408B196B83ADA85 /* pgm_receiver.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pgm_receiver.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/pgm_receiver.cpp; sourceTree = SOURCE_ROOT; };
 		C5B385B1E938620C631134E4 /* socket_base.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = socket_base.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/socket_base.hpp; sourceTree = SOURCE_ROOT; };
 		C70853F4581C13EFC4FEC569 /* mailbox.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = mailbox.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/mailbox.cpp; sourceTree = SOURCE_ROOT; };
-		C70D8946940288799E82131E /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
 		C7CB592805E03DBF2DDFDD3D /* v2_decoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v2_decoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v2_decoder.hpp; sourceTree = SOURCE_ROOT; };
-		C88333E71C9457E441C33474 /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
 		C90733D112179FC721AA237E /* epoll.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = epoll.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/epoll.hpp; sourceTree = SOURCE_ROOT; };
 		C94F56B368800F5B02723D46 /* signaler.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = signaler.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/signaler.hpp; sourceTree = SOURCE_ROOT; };
+		CA7E2E7A170E2C8C9A6F98D8 /* rapidxml_iterators.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidxml_iterators.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml/rapidxml_iterators.hpp; sourceTree = SOURCE_ROOT; };
 		CB3E284F090B1B33B1583CD4 /* poller_base.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = poller_base.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/poller_base.cpp; sourceTree = SOURCE_ROOT; };
 		CCB518C48408380C2FD64091 /* yqueue.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = yqueue.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/yqueue.hpp; sourceTree = SOURCE_ROOT; };
 		CD05587B2141499DE1A1D65D /* pgm_sender.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pgm_sender.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/pgm_sender.cpp; sourceTree = SOURCE_ROOT; };
@@ -364,16 +354,18 @@
 		CD8864768451103CAE818D64 /* signaler.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = signaler.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/signaler.cpp; sourceTree = SOURCE_ROOT; };
 		CFF5A16075C490486CD388A5 /* object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = object.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/object.hpp; sourceTree = SOURCE_ROOT; };
 		D081D240A2ADA8C503FD549F /* socks_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = socks_connecter.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/socks_connecter.cpp; sourceTree = SOURCE_ROOT; };
-		D31A2B9ADF3D63B338F52EC2 /* TweenFunctions.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = TweenFunctions.h; path = ../../../addons/ofxTweenzor/src/TweenFunctions.h; sourceTree = SOURCE_ROOT; };
+		D3687E4D972D0C657AD079EE /* common.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = common.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/common.hpp; sourceTree = SOURCE_ROOT; };
+		D3998849662983528FE0DD21 /* ofxCereal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCereal.h; path = ../../../addons/ofxCereal/src/ofxCereal.h; sourceTree = SOURCE_ROOT; };
 		D40D12E5103C5893161204C2 /* ipc_address.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ipc_address.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/ipc_address.hpp; sourceTree = SOURCE_ROOT; };
 		D5068F0634CC7409A126C225 /* thread.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = thread.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/thread.hpp; sourceTree = SOURCE_ROOT; };
 		D5975FEBE7815CA84E43A55C /* xpub.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = xpub.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/xpub.hpp; sourceTree = SOURCE_ROOT; };
-		D9033293271D5A9259B36990 /* BaseStore.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = BaseStore.cpp; path = ../../../addons/ofxSingleton/src/ofxSingleton/BaseStore.cpp; sourceTree = SOURCE_ROOT; };
+		D882C484AFA89F0595EF2815 /* pow10.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pow10.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal/pow10.h; sourceTree = SOURCE_ROOT; };
 		D97293A895AB5E670425E5FF /* mailbox.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = mailbox.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/mailbox.hpp; sourceTree = SOURCE_ROOT; };
 		D9B3F0A0DC56E3EC6291D007 /* fq.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = fq.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/fq.cpp; sourceTree = SOURCE_ROOT; };
+		DB8DCFAD2C4637EF57C108D0 /* polymorphic.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = polymorphic.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/polymorphic.hpp; sourceTree = SOURCE_ROOT; };
 		DBD63C3870350C40A5D77831 /* ofxZmqReply.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqReply.h; path = ../../../addons/ofxZmq/src/ofxZmqReply.h; sourceTree = SOURCE_ROOT; };
+		DF9B19A18B2DB20BD1CD2EF1 /* base_class.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = base_class.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/base_class.hpp; sourceTree = SOURCE_ROOT; };
 		E0B43D1CF469EBCD92A629A7 /* msg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = msg.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/msg.hpp; sourceTree = SOURCE_ROOT; };
-		E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
 		E297832BB5D023A54E4A85CF /* io_object.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = io_object.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/io_object.cpp; sourceTree = SOURCE_ROOT; };
 		E2D6DE12DE7FC2861A2B6808 /* push.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = push.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/push.hpp; sourceTree = SOURCE_ROOT; };
 		E4186F5705F2651AA67ED7AE /* precompiled.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = precompiled.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/precompiled.hpp; sourceTree = SOURCE_ROOT; };
@@ -388,31 +380,32 @@
 		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
 		E5DBF97DDDE6FC35C73C0C76 /* ofxZmqSubscriber.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqSubscriber.h; path = ../../../addons/ofxZmq/src/ofxZmqSubscriber.h; sourceTree = SOURCE_ROOT; };
 		E61010A43BACB15311E327AA /* tcp_listener.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tcp_listener.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tcp_listener.cpp; sourceTree = SOURCE_ROOT; };
-		E653056C22884664A6B37A4F /* ofxTweenzor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxTweenzor.h; path = ../../../addons/ofxTweenzor/src/ofxTweenzor.h; sourceTree = SOURCE_ROOT; };
 		E70240E44C4369E48929A26F /* ipc_address.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ipc_address.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ipc_address.cpp; sourceTree = SOURCE_ROOT; };
 		E75C6B8F813D6A6C0F36C62D /* tipc_connecter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tipc_connecter.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/tipc_connecter.cpp; sourceTree = SOURCE_ROOT; };
 		E7FE72D90A1F0B43D7947BAC /* gssapi_server.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = gssapi_server.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/gssapi_server.hpp; sourceTree = SOURCE_ROOT; };
+		E897652EF782F5FE849B693D /* strfunc.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = strfunc.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal/strfunc.h; sourceTree = SOURCE_ROOT; };
 		E8B226398E8B1264CD259EBE /* ofxZmqConfig.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqConfig.h; path = ../../../addons/ofxZmq/src/ofxZmqConfig.h; sourceTree = SOURCE_ROOT; };
 		E8E92298FBE1AD44C892FDF6 /* pull.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = pull.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/pull.cpp; sourceTree = SOURCE_ROOT; };
 		E9BAB1F7640CB74CFA245DE7 /* metadata.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = metadata.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/metadata.cpp; sourceTree = SOURCE_ROOT; };
 		E9D7F70E0C4AD850B17688E0 /* curve_server.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = curve_server.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/curve_server.cpp; sourceTree = SOURCE_ROOT; };
+		EB55B0AA5F14CD6168384B94 /* traits.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = traits.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/details/traits.hpp; sourceTree = SOURCE_ROOT; };
 		EC6C1637C1D9C426C55962E0 /* i_poll_events.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = i_poll_events.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/i_poll_events.hpp; sourceTree = SOURCE_ROOT; };
-		ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
-		ED68AFA8A71ECE8AA87AC6F4 /* Register.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = Register.cpp; path = ../../../addons/ofxSingleton/src/ofxSingleton/Register.cpp; sourceTree = SOURCE_ROOT; };
+		F0F3802D27A5A9BF49807937 /* vector.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = vector.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/vector.hpp; sourceTree = SOURCE_ROOT; };
+		F117C7400D3B360F29D5F376 /* boost_variant.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = boost_variant.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/boost_variant.hpp; sourceTree = SOURCE_ROOT; };
 		F1D9F8ADF16C4749CFC663FA /* ofxZmqPublisher.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxZmqPublisher.h; path = ../../../addons/ofxZmq/src/ofxZmqPublisher.h; sourceTree = SOURCE_ROOT; };
 		F1DED74D51B3AAA4E5C066A7 /* addon_common.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = addon_common.h; path = src/addon_common.h; sourceTree = SOURCE_ROOT; };
 		F259C5CB399B81FB0643B850 /* io_object.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = io_object.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/io_object.hpp; sourceTree = SOURCE_ROOT; };
 		F2B099E6BD1199664C48B177 /* ofxJSONElement.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxJSONElement.cpp; path = ../../../addons/ofxJSON/src/ofxJSONElement.cpp; sourceTree = SOURCE_ROOT; };
 		F2F86922D8948EBBA9A79CB0 /* stream_engine.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = stream_engine.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/stream_engine.hpp; sourceTree = SOURCE_ROOT; };
+		F3CD054AA89348787E5B53D4 /* NetworkBar.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = NetworkBar.hpp; path = src/NetworkBar.hpp; sourceTree = SOURCE_ROOT; };
 		F50F4BBD0F4289A6D5D97E87 /* socks.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = socks.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/socks.cpp; sourceTree = SOURCE_ROOT; };
 		F58D874B66147A2E17D4134E /* null_mechanism.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = null_mechanism.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/null_mechanism.cpp; sourceTree = SOURCE_ROOT; };
+		F5EBA9CEB3E5E61EA411737C /* writer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = writer.h; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/writer.h; sourceTree = SOURCE_ROOT; };
 		F6404820A02D20A605521D44 /* plain_server.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = plain_server.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/plain_server.cpp; sourceTree = SOURCE_ROOT; };
-		F6DD3CEE2B9CE893D10F3CED /* Tweenzor.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = Tweenzor.h; path = ../../../addons/ofxTweenzor/src/Tweenzor.h; sourceTree = SOURCE_ROOT; };
 		F74EC1A6F2EA3099E1A6F3B1 /* v1_encoder.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = v1_encoder.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_encoder.cpp; sourceTree = SOURCE_ROOT; };
 		F7F1DE5F9AE10421002DB694 /* msg.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = msg.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/msg.cpp; sourceTree = SOURCE_ROOT; };
 		F8F6D319C5DB743B5C410573 /* blob.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = blob.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/blob.hpp; sourceTree = SOURCE_ROOT; };
-		F98FEFFA519D261FBAA212C6 /* ofxCnnZmq.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxCnnZmq.hpp; path = ../../../addons/ofxCnnHelpers/src/ofxCnnZmq.hpp; sourceTree = SOURCE_ROOT; };
-		FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxmlparser.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		FA98CB87B0297D0D9A7C677B /* access.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = access.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/access.hpp; sourceTree = SOURCE_ROOT; };
 		FDA0E37B5FD8960C9BECC59A /* options.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = options.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/options.cpp; sourceTree = SOURCE_ROOT; };
 		FDE886AA47A40908938126AC /* ofxZmqRequest.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxZmqRequest.cpp; path = ../../../addons/ofxZmq/src/ofxZmqRequest.cpp; sourceTree = SOURCE_ROOT; };
 		FF823063AE015F8A00CE51BE /* clock.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = clock.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/clock.cpp; sourceTree = SOURCE_ROOT; };
@@ -430,37 +423,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0669EB966EE3ED0473B5B6C9 /* src */ = {
+		0F2AE807DE2B7EE32B2F84A0 /* archives */ = {
 			isa = PBXGroup;
 			children = (
-				E653056C22884664A6B37A4F /* ofxTweenzor.h */,
-				8D82EADA1C0761788285029E /* Tween.cpp */,
-				B877ED09B35F60F33C634DAE /* Tween.h */,
-				2600FB058F34C2FD5037FCCF /* TweenEvent.h */,
-				D31A2B9ADF3D63B338F52EC2 /* TweenFunctions.h */,
-				1276C6C526CA5EC58D86740A /* TweenSelector.h */,
-				6968F1DEA668F911A9CB4CA1 /* Tweenzor.cpp */,
-				F6DD3CEE2B9CE893D10F3CED /* Tweenzor.h */,
+				730F3DEEDFB2745BC80C044B /* adapters.hpp */,
+				194780A02CD82208D5210F69 /* binary.hpp */,
+				8257DDB630FEA8C1EB2A96CF /* json.hpp */,
+				301A189BBF7926DD03AF6A14 /* portable_binary.hpp */,
+				7DB99B526D6D3A5800A63417 /* xml.hpp */,
 			);
-			name = src;
+			name = archives;
 			sourceTree = "<group>";
 		};
-		19798C04DB547263426C2151 /* src */ = {
+		1BB79DA3C46C89FAF8D6FAA0 /* rapidjson */ = {
 			isa = PBXGroup;
 			children = (
-				ABCE174CC6E52888D310CA33 /* ofxSingleton */,
-				02828BA30C44C70E6D2CC496 /* ofxSingleton.h */,
+				014A52C2DF6CCFB63A962EDE /* document.h */,
+				44FEF46B8502CDAF72574B86 /* filestream.h */,
+				B6AFA0131983ED4387C63D31 /* genericstream.h */,
+				2EC7089CEC74BE550AFC46E6 /* internal */,
+				C0CB7F36F5AF721C7E47AB05 /* prettywriter.h */,
+				8F889AEAF9BC4F975BA94945 /* rapidjson.h */,
+				7E780C4AAECB8F2527213F85 /* reader.h */,
+				3D65C7859FB21BA04D29190B /* stringbuffer.h */,
+				F5EBA9CEB3E5E61EA411737C /* writer.h */,
 			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */ = {
-			isa = PBXGroup;
-			children = (
-				6ECEF0D76BC33727823EADFF /* src */,
-				6E54289412D2D94F45A05113 /* libs */,
-			);
-			name = ofxXmlSettings;
+			name = rapidjson;
 			sourceTree = "<group>";
 		};
 		2865DAEF86B1907A704CA70B /* ofxJSON */ = {
@@ -470,6 +458,14 @@
 				F40E80CB2D443CBA9581DD03 /* libs */,
 			);
 			name = ofxJSON;
+			sourceTree = "<group>";
+		};
+		28D11213F01690C1C7F9DE28 /* cereal */ = {
+			isa = PBXGroup;
+			children = (
+				BF65A2A4F76705940BF5F044 /* include */,
+			);
+			name = cereal;
 			sourceTree = "<group>";
 		};
 		292AF6148769654D0DF26018 /* src */ = {
@@ -482,6 +478,30 @@
 			name = src;
 			sourceTree = "<group>";
 		};
+		2EC7089CEC74BE550AFC46E6 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				D882C484AFA89F0595EF2815 /* pow10.h */,
+				5642B519BBBF83E476330319 /* stack.h */,
+				E897652EF782F5FE849B693D /* strfunc.h */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		404BE6093F884A7448815ED9 /* cereal */ = {
+			isa = PBXGroup;
+			children = (
+				FA98CB87B0297D0D9A7C677B /* access.hpp */,
+				0F2AE807DE2B7EE32B2F84A0 /* archives */,
+				2E7E8C228F0EE81CD5172FA5 /* cereal.hpp */,
+				B68FCEE0E292ADB72850A123 /* details */,
+				FC289CEF37244BAC012933DF /* external */,
+				83065386E9CE7EFBA7F6290D /* macros.hpp */,
+				F5539E9BE589DBA60A45239A /* types */,
+			);
+			name = cereal;
+			sourceTree = "<group>";
+		};
 		47F918EA084B84DFB5DAD2F2 /* ofxCnnHelpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,32 +510,40 @@
 			name = ofxCnnHelpers;
 			sourceTree = "<group>";
 		};
-		480A780D8D0308AE4A368801 /* ofxGui */ = {
+		4E794F6F533DC4720BB1D873 /* ofxCereal */ = {
 			isa = PBXGroup;
 			children = (
-				A763ED608B35AE3310251DEE /* src */,
+				52A23B16B2659E598DF5E698 /* src */,
+				6EEAE9B0E89D5FA85CF33932 /* libs */,
 			);
-			name = ofxGui;
+			name = ofxCereal;
 			sourceTree = "<group>";
 		};
-		49079037B81634D1F370EDA7 /* ofxSingleton */ = {
+		51D133E9C2935C719D134BAB /* rapidxml */ = {
 			isa = PBXGroup;
 			children = (
-				19798C04DB547263426C2151 /* src */,
+				A7DE09C6EECF8BBDE5A5DFDD /* rapidxml.hpp */,
+				CA7E2E7A170E2C8C9A6F98D8 /* rapidxml_iterators.hpp */,
+				4C2B9BD56DE01B5B55E1DC78 /* rapidxml_print.hpp */,
+				5D9125D36FEF985ABE90F9B0 /* rapidxml_utils.hpp */,
 			);
-			name = ofxSingleton;
+			name = rapidxml;
+			sourceTree = "<group>";
+		};
+		52A23B16B2659E598DF5E698 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				D3998849662983528FE0DD21 /* ofxCereal.h */,
+			);
+			name = src;
 			sourceTree = "<group>";
 		};
 		5553D1971288AB95DAC5EFFA /* src */ = {
 			isa = PBXGroup;
 			children = (
 				A743884B867CA29B762A2413 /* ofxCnnHelpers.h */,
-				A610BAF671E4F257A86463D0 /* ofxCnnLayersDataSource.cpp */,
-				9961DDB51AB84B98B39A7412 /* ofxCnnLayersDataSource.hpp */,
-				BE755F0399A187C4C35EC0E3 /* ofxCnnLayersVizual1.cpp */,
-				8DC6073323493B29283F4BD3 /* ofxCnnLayersVizual1.hpp */,
-				043F7C69BDD83153E29AA3EF /* ofxCnnZmq.cpp */,
-				F98FEFFA519D261FBAA212C6 /* ofxCnnZmq.hpp */,
+				4BA638CA1E430B1400CB78AC /* ofxCnnDensitiesDataSource.cpp */,
+				4BA638CB1E430B1400CB78AC /* ofxCnnDensitiesDataSource.hpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
@@ -536,24 +564,12 @@
 			name = local_addons;
 			sourceTree = "<group>";
 		};
-		6E54289412D2D94F45A05113 /* libs */ = {
+		6EEAE9B0E89D5FA85CF33932 /* libs */ = {
 			isa = PBXGroup;
 			children = (
-				2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */,
-				B21E7E5F548EEA92F368040B /* tinyxml.h */,
-				832BDC407620CDBA568B713D /* tinyxmlerror.cpp */,
-				FC5DA1C87211D4F6377DA719 /* tinyxmlparser.cpp */,
+				28D11213F01690C1C7F9DE28 /* cereal */,
 			);
 			name = libs;
-			sourceTree = "<group>";
-		};
-		6ECEF0D76BC33727823EADFF /* src */ = {
-			isa = PBXGroup;
-			children = (
-				50DF87D612C5AAE17AAFA6C0 /* ofxXmlSettings.cpp */,
-				01DCC0911400F9ACF5B65578 /* ofxXmlSettings.h */,
-			);
-			name = src;
 			sourceTree = "<group>";
 		};
 		8292F4210C14C99492122E9C /* libs */ = {
@@ -794,55 +810,35 @@
 			name = src;
 			sourceTree = "<group>";
 		};
-		A763ED608B35AE3310251DEE /* src */ = {
+		B68FCEE0E292ADB72850A123 /* details */ = {
 			isa = PBXGroup;
 			children = (
-				9604B925D32EE39065747725 /* ofxBaseGui.cpp */,
-				87F26B4B24CBD428AD9EEBAA /* ofxBaseGui.h */,
-				C88333E71C9457E441C33474 /* ofxButton.cpp */,
-				2834D88A62CD23F3DE2C47D1 /* ofxButton.h */,
-				17E65988300FBD9AAA2CD0CA /* ofxGui.h */,
-				ECF8674C7975F1063C5E30CA /* ofxGuiGroup.cpp */,
-				1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */,
-				78D67A00EB899FAC09430597 /* ofxLabel.cpp */,
-				B87C60311EC1FE841C1ECD89 /* ofxLabel.h */,
-				E112B3AEBEA2C091BF2B40AE /* ofxPanel.cpp */,
-				89449E3044D456F7DE7BEA14 /* ofxPanel.h */,
-				15F2C6477A769C03A56D1401 /* ofxSlider.cpp */,
-				52AFA1F08C420992CAAAE648 /* ofxSlider.h */,
-				802251BAF1B35B1D67B32FD0 /* ofxSliderGroup.cpp */,
-				C70D8946940288799E82131E /* ofxSliderGroup.h */,
-				907C5B5E104864A2D3A25745 /* ofxToggle.cpp */,
-				0A1DAC09F322AE313A40706D /* ofxToggle.h */,
+				1CBA755F760D2B3F15238E7B /* helpers.hpp */,
+				B35DAD8AEF085467A80C942F /* polymorphic_impl.hpp */,
+				81E41F60374363FFCFA67159 /* static_object.hpp */,
+				EB55B0AA5F14CD6168384B94 /* traits.hpp */,
+				041C46B02C93707539BE779B /* util.hpp */,
 			);
-			name = src;
-			sourceTree = "<group>";
-		};
-		ABCE174CC6E52888D310CA33 /* ofxSingleton */ = {
-			isa = PBXGroup;
-			children = (
-				D9033293271D5A9259B36990 /* BaseStore.cpp */,
-				39777742146004DB5DD0DA36 /* BaseStore.h */,
-				ED68AFA8A71ECE8AA87AC6F4 /* Register.cpp */,
-				BBACB3C28590DF8ECC2F8CF4 /* Register.h */,
-				1F0CC314C9ABC8362DF4B3F2 /* Singleton.h */,
-				3D87DCEF7BE61FF2B7A482ED /* UnmanagedSingleton.h */,
-			);
-			name = ofxSingleton;
+			name = details;
 			sourceTree = "<group>";
 		};
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				4E794F6F533DC4720BB1D873 /* ofxCereal */,
 				47F918EA084B84DFB5DAD2F2 /* ofxCnnHelpers */,
-				480A780D8D0308AE4A368801 /* ofxGui */,
 				2865DAEF86B1907A704CA70B /* ofxJSON */,
-				49079037B81634D1F370EDA7 /* ofxSingleton */,
-				FDD04E4D261D3569FFD1D18C /* ofxTweenzor */,
-				1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */,
 				BF8F87DF3E45EDAA7FBD88D2 /* ofxZmq */,
 			);
 			name = addons;
+			sourceTree = "<group>";
+		};
+		BF65A2A4F76705940BF5F044 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				404BE6093F884A7448815ED9 /* cereal */,
+			);
+			name = include;
 			sourceTree = "<group>";
 		};
 		BF8F87DF3E45EDAA7FBD88D2 /* ofxZmq */ = {
@@ -907,11 +903,11 @@
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
 				F1DED74D51B3AAA4E5C066A7 /* addon_common.h */,
+				3831CD2302E7056D7017EAB4 /* BarLinesGenerator.cpp */,
+				634886BB177728A6AA23D2A5 /* BarLinesGenerator.hpp */,
 				1DF961D3315047E5E0CDF7BF /* const_common.h */,
-				4B71E4B11E3F4DD600F9B49C /* NetworkBar.cpp */,
-				4B71E4B21E3F4DD600F9B49C /* NetworkBar.hpp */,
-				4B71E4B41E3F4E2C00F9B49C /* BarLinesGenerator.cpp */,
-				4B71E4B51E3F4E2C00F9B49C /* BarLinesGenerator.hpp */,
+				968856DC31C10A67B1E9E46D /* NetworkBar.cpp */,
+				F3CD054AA89348787E5B53D4 /* NetworkBar.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -933,12 +929,44 @@
 			name = libs;
 			sourceTree = "<group>";
 		};
-		FDD04E4D261D3569FFD1D18C /* ofxTweenzor */ = {
+		F5539E9BE589DBA60A45239A /* types */ = {
 			isa = PBXGroup;
 			children = (
-				0669EB966EE3ED0473B5B6C9 /* src */,
+				589A8A7317F6B834437112B0 /* array.hpp */,
+				DF9B19A18B2DB20BD1CD2EF1 /* base_class.hpp */,
+				6733A78AB0BDE670C93C14BD /* bitset.hpp */,
+				F117C7400D3B360F29D5F376 /* boost_variant.hpp */,
+				BB26F53F155112965B30A627 /* chrono.hpp */,
+				D3687E4D972D0C657AD079EE /* common.hpp */,
+				ADC4AA362A2CB0AC017D7A74 /* complex.hpp */,
+				C2EAFC18C5968DFE8F8D6EA7 /* deque.hpp */,
+				A3DBEB315B3FD557E49AFCBB /* forward_list.hpp */,
+				B6ECB5F7D35A5522044F58F5 /* list.hpp */,
+				21B456E39A99A92EB12D0D89 /* map.hpp */,
+				26AA835171A80A7CB9CB15A7 /* memory.hpp */,
+				DB8DCFAD2C4637EF57C108D0 /* polymorphic.hpp */,
+				9536C2BF47D307DF3D41F7AA /* queue.hpp */,
+				B6496CAC8AEBBEBABBBDEBF7 /* set.hpp */,
+				87365B5F07B1DE0CF0C7ED37 /* stack.hpp */,
+				39E516CA38ED77FF1ADC3678 /* string.hpp */,
+				456A587D9C3E04BAC1B64428 /* tuple.hpp */,
+				BA6EDC1B9C4E140A82B78DE7 /* unordered_map.hpp */,
+				4E7F2179CE0FE64EB7DCC2A3 /* unordered_set.hpp */,
+				4DA47068464AD441A21B889C /* utility.hpp */,
+				94D4D7A41FC0BA393F76915A /* valarray.hpp */,
+				F0F3802D27A5A9BF49807937 /* vector.hpp */,
 			);
-			name = ofxTweenzor;
+			name = types;
+			sourceTree = "<group>";
+		};
+		FC289CEF37244BAC012933DF /* external */ = {
+			isa = PBXGroup;
+			children = (
+				1A7FF408A8C820410061012D /* base64.hpp */,
+				1BB79DA3C46C89FAF8D6FAA0 /* rapidjson */,
+				51D133E9C2935C719D134BAB /* rapidxml */,
+			);
+			name = external;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1030,27 +1058,10 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
-				7075C2F16B69BEBFF6BC368F /* ofxCnnLayersDataSource.cpp in Sources */,
-				35E302020F4A574EB59BFD2E /* ofxCnnLayersVizual1.cpp in Sources */,
-				0C110B65C5ACAA4AB576CB43 /* ofxCnnZmq.cpp in Sources */,
-				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
-				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
-				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
-				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
-				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
-				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
-				B56FE57CC35806596D38118C /* ofxSliderGroup.cpp in Sources */,
-				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
+				C39DB1C7CD8F2B8BC258B9CA /* BarLinesGenerator.cpp in Sources */,
+				4305B9D2D48EE8874F762AF6 /* NetworkBar.cpp in Sources */,
 				BEDFEE7400C58EA4E412B757 /* ofxJSONElement.cpp in Sources */,
 				FB84AAF8D1B7A95266DB5C09 /* jsoncpp.cpp in Sources */,
-				05959DA89EBACF2C4F9C89C5 /* BaseStore.cpp in Sources */,
-				EBB8AE3B0BE439EC1CCD2179 /* Register.cpp in Sources */,
-				6205DF95C4D4CD36CC5A274C /* Tween.cpp in Sources */,
-				124BB58EFBC1472D607D739B /* Tweenzor.cpp in Sources */,
-				63B57AC5BF4EF088491E0317 /* ofxXmlSettings.cpp in Sources */,
-				933A2227713C720CEFF80FD9 /* tinyxml.cpp in Sources */,
-				9D44DC88EF9E7991B4A09951 /* tinyxmlerror.cpp in Sources */,
-				5A4349E9754D6FA14C0F2A3A /* tinyxmlparser.cpp in Sources */,
 				AA2FDE680115D444CFFE60A7 /* ofxZmq.cpp in Sources */,
 				08F95FCCFD3633F83C6325F1 /* ofxZmqPair.cpp in Sources */,
 				53519F50F44002CC6D1FDF5A /* ofxZmqPublisher.cpp in Sources */,
@@ -1089,7 +1100,6 @@
 				61BAEE333F4C23B14D0BE11E /* null_mechanism.cpp in Sources */,
 				4DEB21EAC90895EA70620E9D /* object.cpp in Sources */,
 				ED58A048143D3EBAE06EC55F /* options.cpp in Sources */,
-				4B71E4B61E3F4E2C00F9B49C /* BarLinesGenerator.cpp in Sources */,
 				568E8647A5E1A94740095E7D /* own.cpp in Sources */,
 				CB73DDB64EA8CAF894F67E91 /* pair.cpp in Sources */,
 				7A8C1DB48BC33E173A3A4D7C /* pgm_receiver.cpp in Sources */,
@@ -1123,6 +1133,7 @@
 				2878A64467869A58D374821E /* sub.cpp in Sources */,
 				322C22D3CFD66D1A1B756085 /* tcp.cpp in Sources */,
 				194BB171DD828AB3ED318F46 /* tcp_address.cpp in Sources */,
+				4BA638CC1E430B1400CB78AC /* ofxCnnDensitiesDataSource.cpp in Sources */,
 				BCF4EA23E41EC5B3B06D4FE8 /* tcp_connecter.cpp in Sources */,
 				838FFAD21E16CCE47CC486F3 /* tcp_listener.cpp in Sources */,
 				35900263B9FA069E606EB28B /* thread.cpp in Sources */,
@@ -1134,7 +1145,6 @@
 				825C7DC8A06B2CE89D935EF4 /* v1_encoder.cpp in Sources */,
 				9124DE2B436C985326ACEC44 /* v2_decoder.cpp in Sources */,
 				7E893E195DBE9E121C00EEE3 /* v2_encoder.cpp in Sources */,
-				4B71E4B31E3F4DD600F9B49C /* NetworkBar.cpp in Sources */,
 				0243F664A3E1F67A7BF1164E /* xpub.cpp in Sources */,
 				4479E4E1023703A77A4B95F9 /* xsub.cpp in Sources */,
 				0905B99925C5A2600A67A776 /* zmq.cpp in Sources */,
@@ -1175,19 +1185,26 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxCereal/libs,
+					../../../addons/ofxCereal/libs/cereal,
+					../../../addons/ofxCereal/libs/cereal/include,
+					../../../addons/ofxCereal/libs/cereal/include/cereal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/archives,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/details,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/types,
+					../../../addons/ofxCereal/libs/cereal/license,
+					../../../addons/ofxCereal/src,
 					../../../addons/ofxCnnHelpers/src,
-					../../../addons/ofxGui/src,
 					../../../addons/ofxJSON/libs,
 					../../../addons/ofxJSON/libs/jsoncpp,
 					../../../addons/ofxJSON/libs/jsoncpp/include,
 					../../../addons/ofxJSON/libs/jsoncpp/include/json,
 					../../../addons/ofxJSON/libs/jsoncpp/src,
 					../../../addons/ofxJSON/src,
-					../../../addons/ofxSingleton/src,
-					../../../addons/ofxSingleton/src/ofxSingleton,
-					../../../addons/ofxTweenzor/src,
-					../../../addons/ofxXmlSettings/libs,
-					../../../addons/ofxXmlSettings/src,
 					../../../addons/ofxZmq/libs,
 					../../../addons/ofxZmq/libs/zmq,
 					../../../addons/ofxZmq/libs/zmq/include,
@@ -1227,19 +1244,26 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxCereal/libs,
+					../../../addons/ofxCereal/libs/cereal,
+					../../../addons/ofxCereal/libs/cereal/include,
+					../../../addons/ofxCereal/libs/cereal/include/cereal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/archives,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/details,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/types,
+					../../../addons/ofxCereal/libs/cereal/license,
+					../../../addons/ofxCereal/src,
 					../../../addons/ofxCnnHelpers/src,
-					../../../addons/ofxGui/src,
 					../../../addons/ofxJSON/libs,
 					../../../addons/ofxJSON/libs/jsoncpp,
 					../../../addons/ofxJSON/libs/jsoncpp/include,
 					../../../addons/ofxJSON/libs/jsoncpp/include/json,
 					../../../addons/ofxJSON/libs/jsoncpp/src,
 					../../../addons/ofxJSON/src,
-					../../../addons/ofxSingleton/src,
-					../../../addons/ofxSingleton/src/ofxSingleton,
-					../../../addons/ofxTweenzor/src,
-					../../../addons/ofxXmlSettings/libs,
-					../../../addons/ofxXmlSettings/src,
 					../../../addons/ofxZmq/libs,
 					../../../addons/ofxZmq/libs/zmq,
 					../../../addons/ofxZmq/libs/zmq/include,
@@ -1272,19 +1296,26 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxCereal/libs,
+					../../../addons/ofxCereal/libs/cereal,
+					../../../addons/ofxCereal/libs/cereal/include,
+					../../../addons/ofxCereal/libs/cereal/include/cereal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/archives,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/details,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/types,
+					../../../addons/ofxCereal/libs/cereal/license,
+					../../../addons/ofxCereal/src,
 					../../../addons/ofxCnnHelpers/src,
-					../../../addons/ofxGui/src,
 					../../../addons/ofxJSON/libs,
 					../../../addons/ofxJSON/libs/jsoncpp,
 					../../../addons/ofxJSON/libs/jsoncpp/include,
 					../../../addons/ofxJSON/libs/jsoncpp/include/json,
 					../../../addons/ofxJSON/libs/jsoncpp/src,
 					../../../addons/ofxJSON/src,
-					../../../addons/ofxSingleton/src,
-					../../../addons/ofxSingleton/src/ofxSingleton,
-					../../../addons/ofxTweenzor/src,
-					../../../addons/ofxXmlSettings/libs,
-					../../../addons/ofxXmlSettings/src,
 					../../../addons/ofxZmq/libs,
 					../../../addons/ofxZmq/libs/zmq,
 					../../../addons/ofxZmq/libs/zmq/include,
@@ -1317,19 +1348,26 @@
 				HEADER_SEARCH_PATHS = (
 					"$(OF_CORE_HEADERS)",
 					src,
+					../../../addons/ofxCereal/libs,
+					../../../addons/ofxCereal/libs/cereal,
+					../../../addons/ofxCereal/libs/cereal/include,
+					../../../addons/ofxCereal/libs/cereal/include/cereal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/archives,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/details,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidjson/internal,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml,
+					../../../addons/ofxCereal/libs/cereal/include/cereal/types,
+					../../../addons/ofxCereal/libs/cereal/license,
+					../../../addons/ofxCereal/src,
 					../../../addons/ofxCnnHelpers/src,
-					../../../addons/ofxGui/src,
 					../../../addons/ofxJSON/libs,
 					../../../addons/ofxJSON/libs/jsoncpp,
 					../../../addons/ofxJSON/libs/jsoncpp/include,
 					../../../addons/ofxJSON/libs/jsoncpp/include/json,
 					../../../addons/ofxJSON/libs/jsoncpp/src,
 					../../../addons/ofxJSON/src,
-					../../../addons/ofxSingleton/src,
-					../../../addons/ofxSingleton/src/ofxSingleton,
-					../../../addons/ofxTweenzor/src,
-					../../../addons/ofxXmlSettings/libs,
-					../../../addons/ofxXmlSettings/src,
 					../../../addons/ofxZmq/libs,
 					../../../addons/ofxZmq/libs/zmq,
 					../../../addons/ofxZmq/libs/zmq/include,

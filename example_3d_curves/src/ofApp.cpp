@@ -2,10 +2,11 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
+    densityDataSource.setup("");
+    densityDataSource.start(URA_SOCK);
     ofBackground(0);
     ofSetVerticalSync(true);
     ofSetCircleResolution(200);
-    Tweenzor::init();
     
     cam.setFarClip(10000);
     for (int i = 0; i < 5; i++) {
@@ -50,15 +51,19 @@ void ofApp::setup(){
     layersState.push_back(layer3);
     layersState.push_back(layer4);
     layersState.push_back(layer5);
-    cnnDataSource.setup(5, layersState, ofxCnnLayersDataSource::CnnDataMode::CNN_DENSITY);
     
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    cnnDataSource.update();
-    cnnDataSource.getDensityDatas(&cnnParamators);
+    densityDataSource.update();
+    layers = densityDataSource.getDensityDatas();
+    if (cnnParamators.size() > 0) cnnParamators.clear();
+    for (int i = 0; i < layers.size(); i++) {
+        cnnParamators.push_back(layers[i].density_values);
+    }
     
+//    cnnDataSource.getDensityDatas(&cnnParamators);
     for (int i = 0; i < 5; i++) {
         bars[i].update(cnnParamators, i);
     }
@@ -78,7 +83,9 @@ void ofApp::draw(){
 
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
-
+    if (key == 's') {
+        densityDataSource.debugSave();
+    }
 }
 
 //--------------------------------------------------------------
