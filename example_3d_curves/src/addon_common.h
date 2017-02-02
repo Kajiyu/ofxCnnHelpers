@@ -11,6 +11,5 @@
 #include "ofMain.h"
 #include "ofxZmq.h"
 #include "ofxJSON.h"
-#include "ofxSingleton.h"
-#include "ofxTweenzor.h"
+#include "ofxCereal.h"
 #include "ofxCnnHelpers.h"
