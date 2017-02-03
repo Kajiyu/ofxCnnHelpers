@@ -71,16 +71,17 @@ void ActivationLayerManager::threadedFunction()
     
     while ( isThreadRunning() )
     {
-        if( lock() )
+        while ( zmqSubscriber.hasWaitingMessage(500) )
         {
-            while ( zmqSubscriber.hasWaitingMessage(500) )
-            {
-                ofBuffer private_buffer;
-                zmqSubscriber.getNextMessage(private_buffer);
-                getActivationLayersFromBuffer(&layers, private_buffer);
-                break;
+            ofBuffer private_buffer;
+            zmqSubscriber.getNextMessage(private_buffer);
+            getActivationLayersFromBuffer(&layers_buffer, private_buffer);
+            if (lock()) {
+                swap(layers_buffer, layers);
             }
             unlock();
+            layers_buffer.clear();
+            break;
         }
     }
 }
