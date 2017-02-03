@@ -50,4 +50,5 @@ class ofApp : public ofBaseApp{
     ofTrueTypeFont font;
     
     ofxCnnHelpers::ActivationLayerManager layerManager;
+    vector<ofxCnnHelpers::ActivationLayer> layers;
 };

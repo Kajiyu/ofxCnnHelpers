@@ -38,6 +38,7 @@ public:
     
 protected:
     vector<ActivationLayer> layers;
+    vector<ActivationLayer> layers_buffer;
     ofxZmqSubscriber zmqSubscriber;
     
 };
