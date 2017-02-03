@@ -8,4 +8,5 @@
 
 #pragma once
 
-#include "ofxCnnDensitiesDataSource.hpp"
+#include "ofxCnnHelpers/Constants.h"
+#include "ofxCnnHelpers/ActivationLayerManager.h"

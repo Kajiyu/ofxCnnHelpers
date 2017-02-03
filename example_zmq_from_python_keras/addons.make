@@ -1,4 +1,0 @@
-ofxCnnHelpers
-ofxJSON
-ofxTweenzor
-ofxZmq

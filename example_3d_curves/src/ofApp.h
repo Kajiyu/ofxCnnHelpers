@@ -37,8 +37,8 @@ protected:
     NetworkBar bars[5];
     BarLinesGenerator linesGenerator;
     
-    vector<DensityLayer> layers;
+    vector<ofxCnnHelpers::ActivationLayer> layers;
     vector<vector<float>> cnnParamators;
     
-    ofxCnnDensitiesDataSource densityDataSource;
+    ofxCnnHelpers::ActivationLayerManager layerManager;
 };

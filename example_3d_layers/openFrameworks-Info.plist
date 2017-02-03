@@ -18,6 +18,8 @@
 	<string>1.0</string>
 	<key>NSHighResolutionCapable</key>
 	<true/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
 	<key>CFBundleIconFile</key>
 	<string>${ICON}</string>
 </dict>

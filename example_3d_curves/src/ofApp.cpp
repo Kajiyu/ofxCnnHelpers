@@ -2,8 +2,8 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    densityDataSource.setup("");
-    densityDataSource.start(URA_SOCK);
+    layerManager.setup("");
+    layerManager.start(URA_SOCK);
     ofBackground(0);
     ofSetVerticalSync(true);
     ofSetCircleResolution(200);
@@ -56,11 +56,10 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update(){
-    densityDataSource.update();
-    layers = densityDataSource.getDensityDatas();
+    layers = layerManager.get();
     if (cnnParamators.size() > 0) cnnParamators.clear();
     for (int i = 0; i < layers.size(); i++) {
-        cnnParamators.push_back(layers[i].density_values);
+        cnnParamators.push_back(layers[i].values);
     }
     
 //    cnnDataSource.getDensityDatas(&cnnParamators);
@@ -84,7 +83,7 @@ void ofApp::draw(){
 //--------------------------------------------------------------
 void ofApp::keyPressed(int key){
     if (key == 's') {
-        densityDataSource.debugSave();
+        layerManager.debugSave();
     }
 }
 

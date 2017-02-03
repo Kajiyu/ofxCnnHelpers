@@ -49,6 +49,5 @@ class ofApp : public ofBaseApp{
     ofPath plateUnitingLines;
     ofTrueTypeFont font;
     
-    ofxCnnDensitiesDataSource densitiesDataSource;
-    vector<DensityLayer> densityLayers;
+    ofxCnnHelpers::ActivationLayerManager layerManager;
 };
