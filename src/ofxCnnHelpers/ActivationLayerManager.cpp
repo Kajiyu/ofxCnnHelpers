@@ -104,4 +104,9 @@ void ActivationLayerManager::debugSave()
     save_count++;
 }
 
+
+int ActivationLayerManager::getLayersNum() {
+    return layers.size();
+}
+
 OFX_CNN_HELPERS_END_NAMESPACE

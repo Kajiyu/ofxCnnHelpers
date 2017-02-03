@@ -33,6 +33,7 @@ public:
     void threadedFunction();
     void save();
     void debugSave();
+    int getLayersNum();
     
     vector<ActivationLayer> get();
     
