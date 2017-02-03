@@ -1,0 +1,5 @@
+ofxCereal
+ofxCnnHelpers
+ofxJSON
+ofxTweenzor
+ofxZmq
