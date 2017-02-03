@@ -54,7 +54,7 @@ public:
     void setup(string filename);
     void update();
     vector<DensityLayer> getDensityDatas();
-    void start(string port);
+    void start(string port, int waiting_time);
     void stop();
     void threadedFunction();
     void save();
@@ -63,6 +63,7 @@ public:
 protected:
     unsigned int zmq_get_count = 0;
     unsigned int save_count = 0;
+    int zmq_waiting_time = 500;
     bool isZmqMode;
     bool isSetup = false;
     string jsonFileName;

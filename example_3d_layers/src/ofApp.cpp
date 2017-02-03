@@ -23,25 +23,24 @@ void ofApp::setup(){
     font.load("verdana.ttf", 200);
     
     densitiesDataSource.setup("");
-//    densitiesDataSource.start(URA_SOCK);
+    densitiesDataSource.start(URA_SOCK, 0);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
     densitiesDataSource.update();
-    densityLayers = densitiesDataSource.getDensityDatas();
     
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < POINT_NUM; j++) {
-            float small_value = ofMap(densityLayers[i].density_values[j], 0, 0.5, 0, 1);
-            float middle_value = ofMap(densityLayers[i].density_values[j], 0, 0.8, 0, 1);
+            float small_value = ofMap(densitiesDataSource.getDensityDatas()[i].density_values[j], 0, 0.5, 0, 1);
+            float middle_value = ofMap(densitiesDataSource.getDensityDatas()[i].density_values[j], 0, 0.8, 0, 1);
             if (i == 0) {
             } else if (i == 1) {
             } else if (i == 2) {
             } else if (i == 3) {
             } else if (i == 4){
-                small_value = ofMap(densityLayers[i].density_values[j], 0, 10, 0, 1);
-                middle_value = ofMap(densityLayers[i].density_values[j], 0, 10, 0, 1);
+                small_value = ofMap(densitiesDataSource.getDensityDatas()[i].density_values[j], 0, 10, 0, 1);
+                middle_value = ofMap(densitiesDataSource.getDensityDatas()[i].density_values[j], 0, 10, 0, 1);
                 //                cout << ofToFloat(density_json[conv_name][j].toStyledString()) << endl;
             }
             plates[i].updateLifeGageVslues(j, small_value, middle_value);

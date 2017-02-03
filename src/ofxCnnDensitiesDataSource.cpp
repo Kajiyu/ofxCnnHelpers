@@ -21,7 +21,7 @@ void ofxCnnDensitiesDataSource::setup(string filename) {
             isSetup = true;
         }
         jsonFileName = filename;
-        
+
     } else {
         ofFile file(filename);
         if (file.exists()) {
@@ -46,7 +46,11 @@ vector<DensityLayer> ofxCnnDensitiesDataSource::getDensityDatas() {
 }
 
 
-void ofxCnnDensitiesDataSource::start(string port){
+void ofxCnnDensitiesDataSource::start(string port, int waiting_time){
+    if (waiting_time <= 0) {}
+    else {
+        zmq_waiting_time = waiting_time;
+    }
     if (!isThreadRunning()) {
         zmqSubscriber.connect(port);
         startThread();
@@ -64,11 +68,13 @@ void ofxCnnDensitiesDataSource::stop(){
 void ofxCnnDensitiesDataSource::threadedFunction(){
     while (isThreadRunning()){
         if(lock()) {
-            while (zmqSubscriber.hasWaitingMessage(500)) {
+            while (zmqSubscriber.hasWaitingMessage(zmq_waiting_time)) {
                 zmqSubscriber.getNextMessage(private_buffer);
                 densitiesDomain.tmpJson.openFromBuffer(private_buffer);
                 densitiesDomain.getAsDensityLayers(&densityLayers);
                 zmq_get_count++;
+                // string debug_json_file = ofToString(zmq_get_count) + "_debug.json";
+                // densitiesDomain.tmpJson.save(debug_json_file);
                 cout << "get ::: " << zmq_get_count << endl;
                 break;
             }
