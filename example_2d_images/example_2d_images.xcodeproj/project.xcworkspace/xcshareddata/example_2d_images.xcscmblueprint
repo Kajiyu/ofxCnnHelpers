@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "28AB90D00F308C509BE42EE4A3FD8FF5E5618866",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : 9223372036854775807,
+    "28AB90D00F308C509BE42EE4A3FD8FF5E5618866" : 9223372036854775807,
+    "644C69DDF7BE50DCEB09820E1E06EF5DF0AD273F" : 9223372036854775807,
+    "5DB7C332A3A89035E93556A2A38BF414005BA671" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "26178950-885C-4A8C-9C00-27717E7C640B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "447998D83939BB7F25EB9B445BB8EECEBBAD7456" : "ofxZmq\/",
+    "28AB90D00F308C509BE42EE4A3FD8FF5E5618866" : "ofxCnnHelpers\/",
+    "644C69DDF7BE50DCEB09820E1E06EF5DF0AD273F" : "ofxCereal\/",
+    "5DB7C332A3A89035E93556A2A38BF414005BA671" : "ofxJSON\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "example_2d_images",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "example_2d_images\/example_2d_images.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Kajiyu\/ofxCnnHelpers.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "28AB90D00F308C509BE42EE4A3FD8FF5E5618866"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:satoruhiga\/ofxZmq.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "447998D83939BB7F25EB9B445BB8EECEBBAD7456"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Kajiyu\/ofxJSON.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5DB7C332A3A89035E93556A2A38BF414005BA671"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:hanasaan\/ofxCereal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "644C69DDF7BE50DCEB09820E1E06EF5DF0AD273F"
+    }
+  ]
+}
