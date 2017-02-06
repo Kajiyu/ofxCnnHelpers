@@ -30,6 +30,9 @@
 		446DAB262063F256C2DAC0EA /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 424139E83C30D6E102D1EF10 /* address.cpp */; };
 		4479E4E1023703A77A4B95F9 /* xsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9696CECD86160C426E6696 /* xsub.cpp */; };
 		4943B8E1AEE5AC9E6658E662 /* pgm_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90ED9DCE21D625BDF25974B /* pgm_socket.cpp */; };
+		4BFC3D7A1E48926B00764E9E /* BoxelFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC3D781E48926B00764E9E /* BoxelFilter.cpp */; };
+		4BFC3D7E1E48988E00764E9E /* ofxYCrCb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC3D7C1E48988E00764E9E /* ofxYCrCb.cpp */; };
+		4BFC3D811E489D2E00764E9E /* FiltersLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC3D7F1E489D2E00764E9E /* FiltersLayer.cpp */; };
 		4DEB21EAC90895EA70620E9D /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 896D83394213FBE819BE5000 /* object.cpp */; };
 		4E1F75653F76B3A35F4932EB /* tipc_listener.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 723C171BB7CFD7F17DD85D00 /* tipc_listener.cpp */; };
 		517755A30A238FA0DCA7DDB0 /* ofxZmqSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E220F072D19BD53F719AC1 /* ofxZmqSocket.cpp */; };
@@ -214,6 +217,14 @@
 		4B51CD0EF1EEAA168AADDAB4 /* thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = thread.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/thread.cpp; sourceTree = SOURCE_ROOT; };
 		4B817DF7165BE79BBB51D543 /* v1_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v1_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_encoder.hpp; sourceTree = SOURCE_ROOT; };
 		4BD4CD073E26D816B3A77124 /* pull.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pull.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pull.hpp; sourceTree = SOURCE_ROOT; };
+		4BFC3D751E4891DD00764E9E /* addon_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_common.h; sourceTree = "<group>"; };
+		4BFC3D761E4891EB00764E9E /* const_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const_common.h; sourceTree = "<group>"; };
+		4BFC3D781E48926B00764E9E /* BoxelFilter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoxelFilter.cpp; sourceTree = "<group>"; };
+		4BFC3D791E48926B00764E9E /* BoxelFilter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BoxelFilter.hpp; sourceTree = "<group>"; };
+		4BFC3D7C1E48988E00764E9E /* ofxYCrCb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxYCrCb.cpp; sourceTree = "<group>"; };
+		4BFC3D7D1E48988E00764E9E /* ofxYCrCb.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ofxYCrCb.hpp; sourceTree = "<group>"; };
+		4BFC3D7F1E489D2E00764E9E /* FiltersLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FiltersLayer.cpp; sourceTree = "<group>"; };
+		4BFC3D801E489D2E00764E9E /* FiltersLayer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FiltersLayer.hpp; sourceTree = "<group>"; };
 		4C2B9BD56DE01B5B55E1DC78 /* rapidxml_print.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidxml_print.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml/rapidxml_print.hpp; sourceTree = SOURCE_ROOT; };
 		4CDDC9623836B4A7E476A389 /* ctx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ctx.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ctx.cpp; sourceTree = SOURCE_ROOT; };
 		4DA47068464AD441A21B889C /* utility.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = utility.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/utility.hpp; sourceTree = SOURCE_ROOT; };
@@ -909,6 +920,14 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				4BFC3D751E4891DD00764E9E /* addon_common.h */,
+				4BFC3D761E4891EB00764E9E /* const_common.h */,
+				4BFC3D781E48926B00764E9E /* BoxelFilter.cpp */,
+				4BFC3D791E48926B00764E9E /* BoxelFilter.hpp */,
+				4BFC3D7C1E48988E00764E9E /* ofxYCrCb.cpp */,
+				4BFC3D7D1E48988E00764E9E /* ofxYCrCb.hpp */,
+				4BFC3D7F1E489D2E00764E9E /* FiltersLayer.cpp */,
+				4BFC3D801E489D2E00764E9E /* FiltersLayer.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -1100,6 +1119,7 @@
 				ABF4CABB614A4A1CC43D99BA /* norm_engine.cpp in Sources */,
 				61BAEE333F4C23B14D0BE11E /* null_mechanism.cpp in Sources */,
 				4DEB21EAC90895EA70620E9D /* object.cpp in Sources */,
+				4BFC3D7E1E48988E00764E9E /* ofxYCrCb.cpp in Sources */,
 				ED58A048143D3EBAE06EC55F /* options.cpp in Sources */,
 				568E8647A5E1A94740095E7D /* own.cpp in Sources */,
 				CB73DDB64EA8CAF894F67E91 /* pair.cpp in Sources */,
@@ -1121,6 +1141,7 @@
 				577F55BFC4D5A4C20023ABA9 /* raw_encoder.cpp in Sources */,
 				0E78297274DBEDAA6D8D710F /* reaper.cpp in Sources */,
 				A0B675C511E75F3D44D61B09 /* rep.cpp in Sources */,
+				4BFC3D811E489D2E00764E9E /* FiltersLayer.cpp in Sources */,
 				7F82829B56C398E23C446F84 /* req.cpp in Sources */,
 				DA3BA22B0DC702036211FA74 /* router.cpp in Sources */,
 				0E8ABF7A0DDCB9C36F2FFD6B /* select.cpp in Sources */,
@@ -1132,6 +1153,7 @@
 				EC0768B96E3F69D950DF704B /* stream.cpp in Sources */,
 				38295ECBA8F5AC73042DA634 /* stream_engine.cpp in Sources */,
 				2878A64467869A58D374821E /* sub.cpp in Sources */,
+				4BFC3D7A1E48926B00764E9E /* BoxelFilter.cpp in Sources */,
 				322C22D3CFD66D1A1B756085 /* tcp.cpp in Sources */,
 				194BB171DD828AB3ED318F46 /* tcp_address.cpp in Sources */,
 				BCF4EA23E41EC5B3B06D4FE8 /* tcp_connecter.cpp in Sources */,

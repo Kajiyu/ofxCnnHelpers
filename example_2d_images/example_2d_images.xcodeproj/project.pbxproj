@@ -210,12 +210,12 @@
 		470786241719B8DD09621D1D /* v2_protocol.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v2_protocol.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v2_protocol.hpp; sourceTree = SOURCE_ROOT; };
 		48454745FA80EA36AFBB571E /* command.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = command.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/command.hpp; sourceTree = SOURCE_ROOT; };
 		4B04C58C1E48172600D21756 /* FilterImageManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FilterImageManager.cpp; path = ../src/ofxCnnHelpers/FilterImageManager.cpp; sourceTree = "<group>"; };
-		4B04C58D1E48172600D21756 /* FilterImageManager.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = FilterImageManager.hpp; path = ../src/ofxCnnHelpers/FilterImageManager.hpp; sourceTree = "<group>"; };
 		4B04C5911E485EED00D21756 /* addon_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_common.h; sourceTree = "<group>"; };
 		4B04C5921E485EFD00D21756 /* const_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = const_common.h; sourceTree = "<group>"; };
 		4B51CD0EF1EEAA168AADDAB4 /* thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = thread.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/thread.cpp; sourceTree = SOURCE_ROOT; };
 		4B817DF7165BE79BBB51D543 /* v1_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v1_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_encoder.hpp; sourceTree = SOURCE_ROOT; };
 		4BD4CD073E26D816B3A77124 /* pull.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pull.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pull.hpp; sourceTree = SOURCE_ROOT; };
+		4BFC3D7B1E48945600764E9E /* FilterImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FilterImageManager.h; path = ../src/ofxCnnHelpers/FilterImageManager.h; sourceTree = "<group>"; };
 		4C2B9BD56DE01B5B55E1DC78 /* rapidxml_print.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = rapidxml_print.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/external/rapidxml/rapidxml_print.hpp; sourceTree = SOURCE_ROOT; };
 		4CDDC9623836B4A7E476A389 /* ctx.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ctx.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/ctx.cpp; sourceTree = SOURCE_ROOT; };
 		4DA47068464AD441A21B889C /* utility.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = utility.hpp; path = ../../../addons/ofxCereal/libs/cereal/include/cereal/types/utility.hpp; sourceTree = SOURCE_ROOT; };
@@ -576,7 +576,7 @@
 				592879F682CA9F1518824BAC /* ActivationLayerManager.h */,
 				770516A3E3D85F910F45FDDE /* Constants.h */,
 				4B04C58C1E48172600D21756 /* FilterImageManager.cpp */,
-				4B04C58D1E48172600D21756 /* FilterImageManager.hpp */,
+				4BFC3D7B1E48945600764E9E /* FilterImageManager.h */,
 			);
 			name = ofxCnnHelpers;
 			sourceTree = "<group>";

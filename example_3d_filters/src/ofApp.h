@@ -1,6 +1,9 @@
 #pragma once
 
 #include "ofMain.h"
+#include "addon_common.h"
+#include "const_common.h"
+#include "FiltersLayer.hpp"
 
 class ofApp : public ofBaseApp{
 
