@@ -16,9 +16,9 @@ void BoxelFilter::setup(ofxCnnHelpers::FilterOutputLayer &_layer, int _filter_id
     layer_name = _layer.name;
     
     
-    for (int i = 0; i < width; i++) {
+    for (int i = 0; i < height; i++) {
         vector<ofBoxPrimitive> tmp_boxes_part;
-        for (int j = 0; j < height; j++) {
+        for (int j = 0; j < width; j++) {
             ofBoxPrimitive box;
             box.set(20, 20, 20);
             box.setPosition(i*30, j*(-30), 0);
@@ -37,12 +37,15 @@ void BoxelFilter::update(ofPixels &_pixels) {
 
 
 void BoxelFilter::draw(float x, float y, float z) {
+    ofPushMatrix();
+    ofTranslate(x, y, z);
     for (int i = 0; i < boxes.size(); i++) {
         for (int j = 0; j < boxes[i].size(); j++) {
-            ofxYCrCb color = ofxYCrCb(125, 127, pixels.getColor(i, j).r);
+            ofxYCrCb color = ofxYCrCb(125, 127, pixels.getColor(j, i).r);
             ofSetColor(color.toRgb());
             boxes[i][j].draw();
         }
     }
+    ofPopMatrix();
 }
 

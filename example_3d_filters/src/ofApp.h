@@ -24,4 +24,10 @@ class ofApp : public ofBaseApp{
 		void dragEvent(ofDragInfo dragInfo);
 		void gotMessage(ofMessage msg);
 		
+    vector<FiltersLayer> layers;
+    ofEasyCam cam;
+    ofTrueTypeFont font;
+    ofxCnnHelpers::FilterImageManager filterManager;
+    ofLight light;
+    ofFbo fbo;
 };

@@ -1,0 +1,94 @@
+{
+    "value0": [
+        {
+            "name": "\"conv1\"\n",
+            "numImages": 8,
+            "widthImage": 300,
+            "heightImage": 62,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"pool1\"\n",
+            "numImages": 8,
+            "widthImage": 150,
+            "heightImage": 31,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"conv2\"\n",
+            "numImages": 8,
+            "widthImage": 148,
+            "heightImage": 29,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"pool2\"\n",
+            "numImages": 8,
+            "widthImage": 74,
+            "heightImage": 15,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"conv3\"\n",
+            "numImages": 8,
+            "widthImage": 72,
+            "heightImage": 13,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"pool3\"\n",
+            "numImages": 8,
+            "widthImage": 36,
+            "heightImage": 7,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"conv4\"\n",
+            "numImages": 8,
+            "widthImage": 72,
+            "heightImage": 13,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"pool4\"\n",
+            "numImages": 8,
+            "widthImage": 17,
+            "heightImage": 3,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"conv5\"\n",
+            "numImages": 8,
+            "widthImage": 15,
+            "heightImage": 1,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        },
+        {
+            "name": "\"pool5\"\n",
+            "numImages": 8,
+            "widthImage": 8,
+            "heightImage": 1,
+            "widthFilter": 3,
+            "heightFilter": 3,
+            "imagePaths": []
+        }
+    ]
+}
