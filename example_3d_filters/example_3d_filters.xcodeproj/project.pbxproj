@@ -30,6 +30,7 @@
 		446DAB262063F256C2DAC0EA /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 424139E83C30D6E102D1EF10 /* address.cpp */; };
 		4479E4E1023703A77A4B95F9 /* xsub.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6D9696CECD86160C426E6696 /* xsub.cpp */; };
 		4943B8E1AEE5AC9E6658E662 /* pgm_socket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B90ED9DCE21D625BDF25974B /* pgm_socket.cpp */; };
+		4B6C54231E49BF7D0038C710 /* InputImageManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B6C54211E49BF7D0038C710 /* InputImageManager.cpp */; };
 		4BFC3D7A1E48926B00764E9E /* BoxelFilter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC3D781E48926B00764E9E /* BoxelFilter.cpp */; };
 		4BFC3D7E1E48988E00764E9E /* ofxYCrCb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC3D7C1E48988E00764E9E /* ofxYCrCb.cpp */; };
 		4BFC3D811E489D2E00764E9E /* FiltersLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4BFC3D7F1E489D2E00764E9E /* FiltersLayer.cpp */; };
@@ -215,6 +216,8 @@
 		470786241719B8DD09621D1D /* v2_protocol.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v2_protocol.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v2_protocol.hpp; sourceTree = SOURCE_ROOT; };
 		48454745FA80EA36AFBB571E /* command.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = command.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/command.hpp; sourceTree = SOURCE_ROOT; };
 		4B51CD0EF1EEAA168AADDAB4 /* thread.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = thread.cpp; path = ../../../addons/ofxZmq/libs/zmq/src/thread.cpp; sourceTree = SOURCE_ROOT; };
+		4B6C54211E49BF7D0038C710 /* InputImageManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = InputImageManager.cpp; path = ../src/ofxCnnHelpers/InputImageManager.cpp; sourceTree = "<group>"; };
+		4B6C54221E49BF7D0038C710 /* InputImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = InputImageManager.h; path = ../src/ofxCnnHelpers/InputImageManager.h; sourceTree = "<group>"; };
 		4B817DF7165BE79BBB51D543 /* v1_encoder.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = v1_encoder.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/v1_encoder.hpp; sourceTree = SOURCE_ROOT; };
 		4BD4CD073E26D816B3A77124 /* pull.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = pull.hpp; path = ../../../addons/ofxZmq/libs/zmq/src/pull.hpp; sourceTree = SOURCE_ROOT; };
 		4BFC3D751E4891DD00764E9E /* addon_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addon_common.h; sourceTree = "<group>"; };
@@ -586,6 +589,8 @@
 				770516A3E3D85F910F45FDDE /* Constants.h */,
 				360C4763518BB7C4D2A5060F /* FilterImageManager.cpp */,
 				17E8897446DD3C2647B6A6DD /* FilterImageManager.h */,
+				4B6C54211E49BF7D0038C710 /* InputImageManager.cpp */,
+				4B6C54221E49BF7D0038C710 /* InputImageManager.h */,
 			);
 			name = ofxCnnHelpers;
 			sourceTree = "<group>";
@@ -1160,6 +1165,7 @@
 				838FFAD21E16CCE47CC486F3 /* tcp_listener.cpp in Sources */,
 				35900263B9FA069E606EB28B /* thread.cpp in Sources */,
 				6D8606BCC7694B4C13F19334 /* tipc_address.cpp in Sources */,
+				4B6C54231E49BF7D0038C710 /* InputImageManager.cpp in Sources */,
 				063FB03E984033AC45DC2F6A /* tipc_connecter.cpp in Sources */,
 				4E1F75653F76B3A35F4932EB /* tipc_listener.cpp in Sources */,
 				B4B5235DE31E57BF5FA5D3DD /* trie.cpp in Sources */,

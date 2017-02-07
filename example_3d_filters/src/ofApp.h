@@ -28,6 +28,7 @@ class ofApp : public ofBaseApp{
     ofEasyCam cam;
     ofTrueTypeFont font;
     ofxCnnHelpers::FilterImageManager filterManager;
+    ofxCnnHelpers::InputImageManager inputManager;
     ofLight light;
     ofFbo fbo;
 };

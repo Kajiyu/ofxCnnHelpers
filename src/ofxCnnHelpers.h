@@ -11,3 +11,4 @@
 #include "ofxCnnHelpers/Constants.h"
 #include "ofxCnnHelpers/ActivationLayerManager.h"
 #include "ofxCnnHelpers/FilterImageManager.h"
+#include "ofxCnnHelpers/InputImageManager.h"

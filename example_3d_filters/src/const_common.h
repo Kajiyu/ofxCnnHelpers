@@ -18,6 +18,7 @@
 
 #define URA_SOCK "tcp://127.0.0.1:9001"
 #define FILTER_SOCK "tcp://127.0.0.1:9000"
+#define INPUT_IMAGE_SOCK "tcp://127.0.0.1:8500"
 
 #define SW 2500
 #define SH 1300
