@@ -6,7 +6,7 @@
 //
 //
 
-#include "FilterImageManager.hpp"
+#include "FilterImageManager.h"
 
 OFX_CNN_HELPERS_BEGIN_NAMESPACE
 
