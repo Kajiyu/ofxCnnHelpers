@@ -520,6 +520,15 @@
 			name = ofxCnnHelpers;
 			sourceTree = "<group>";
 		};
+		4BA71C4B1E4ACD1A00AD67C4 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				4BFC3D7C1E48988E00764E9E /* ofxYCrCb.cpp */,
+				4BFC3D7D1E48988E00764E9E /* ofxYCrCb.hpp */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
 		4E794F6F533DC4720BB1D873 /* ofxCereal */ = {
 			isa = PBXGroup;
 			children = (
@@ -922,6 +931,7 @@
 		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
 			isa = PBXGroup;
 			children = (
+				4BA71C4B1E4ACD1A00AD67C4 /* utils */,
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
@@ -929,8 +939,6 @@
 				4BFC3D761E4891EB00764E9E /* const_common.h */,
 				4BFC3D781E48926B00764E9E /* BoxelFilter.cpp */,
 				4BFC3D791E48926B00764E9E /* BoxelFilter.hpp */,
-				4BFC3D7C1E48988E00764E9E /* ofxYCrCb.cpp */,
-				4BFC3D7D1E48988E00764E9E /* ofxYCrCb.hpp */,
 				4BFC3D7F1E489D2E00764E9E /* FiltersLayer.cpp */,
 				4BFC3D801E489D2E00764E9E /* FiltersLayer.hpp */,
 			);

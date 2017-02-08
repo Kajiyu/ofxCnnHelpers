@@ -19,10 +19,13 @@ public:
     
     
 protected:
-    ofPixels pixels;
+//    ofPixels pixels;
+    ofTexture texture;
     int width;
     int height;
     int filter_id;
     string layer_name;
-    vector<vector<ofBoxPrimitive>> boxes;
+//    vector<vector<ofBoxPrimitive>> boxes;
+    ofVboMesh vboMesh;
+    ofShader shader;
 };

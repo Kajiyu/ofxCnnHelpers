@@ -12,10 +12,10 @@ void ofApp::setup(){
     font.load("verdana.ttf", 20);
     
     // 4以下にするとクラッシュが起きる。
-    for (int i = 5; i < 10; i++) {
+    for (int i = 0; i < 10; i++) {
         FiltersLayer layer;
         ofxCnnHelpers::FilterOutputLayer cnnLayer = filterManager.getLayerAtIndex(i+1);
-        layer.setup(cnnLayer, 1000);
+        layer.setup(cnnLayer, 4000);
         layers.push_back(layer);
         cout << cnnLayer.name << " Setupped" << endl;
     }
@@ -49,7 +49,7 @@ void ofApp::draw(){
     glEnable(GL_CULL_FACE);
     glCullFace(GL_BACK);
     for (int i = 0; i < layers.size(); i++) {
-        layers[i].draw(0, 0, (-400)*i);
+        layers[i].draw(0, 0, (-4000)*i);
     }
     glDisable(GL_CULL_FACE);
     cam.end();

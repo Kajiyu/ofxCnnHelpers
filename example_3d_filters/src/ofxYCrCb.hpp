@@ -7,8 +7,7 @@
 //
 
 #pragma once
-#include "const_common.h"
-#include "addon_common.h"
+#include "ofMain.h"
 
 class ofxYCrCb {
 public:
